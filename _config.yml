@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Peiyu Chen (陈沛羽)"
+title                    : "Peiyu Chen (陈沛羽)/Personal Homepage"
 description              : "This is Chen Peiyu's personal homepage"
 repository               : "Jalkey-Chen/Jalkey-Chen.github.io"
 # google_scholar_stats_use_cdn : true
@@ -21,42 +21,42 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Peiyu Chen (陈沛羽)"
+  name             : "Peiyu Chen\n(陈沛羽)"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "University of Chicago"
   location         : "Chicago, IL, USA"
-  # employer         :
-  # pubmed           : 
-  # googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  employer         :
+  pubmed           : 
+  googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "peiyuch@uchicago.edu"
-  # researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  # uri              :
-  # bitbucket        :
-  # codepen          :
-  # dribbble         :
-  # flickr           :
-  # facebook         :
-  # foursquare       :
+  researchgate     : # e.g., "https://www.researchgate.net/profile/yourprofile"
+  uri              : https://jalkey-chen.github.io
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
   github           : "Jalkey-Chen"
-  # google_plus      :
-  # keybase          :
+  google_plus      :
+  keybase          :
   instagram        : "https://www.instagram.com/chenpy_jalkey"
-  # impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  # lastfm           :
+  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
   linkedin         : "peiyu-chen-jalkey"
-  # dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  # orcid            : # e.g., "https://orcid.org/xxxx"
-  # pinterest        :
-  # soundcloud       :
-  # stackoverflow    : # http://stackoverflow.com/users/123456/username
-  # steam            :
-  # tumblr           :
+  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid            : # e.g., "https://orcid.org/xxxx"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
   twitter          : 
-  # vine             :
-  # weibo            :
-  # xing             :
-  # youtube          :
-  # wikipedia        :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
 
 
 # Reading Files
