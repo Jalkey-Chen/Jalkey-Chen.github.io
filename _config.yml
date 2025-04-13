@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Peiyu Chen\n(陈沛羽)"
+  name             : "Peiyu Chen<br>(陈沛羽)"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "University of Chicago"
   location         : "Chicago, IL, USA"
