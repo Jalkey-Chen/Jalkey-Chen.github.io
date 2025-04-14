@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Peiyu Chen (陈沛羽)/Personal Homepage"
+title                    : "Peiyu CHEN (陈沛羽)/Personal Homepage"
 description              : "This is Chen Peiyu's personal homepage"
 repository               : "Jalkey-Chen/Jalkey-Chen.github.io"
 # google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Peiyu Chen<br>(陈沛羽)"
+  name             : "Peiyu Chen<br><span>(陈沛羽)</span>"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "University of Chicago"
   location         : "Chicago, IL, USA"
