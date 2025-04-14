@@ -23,11 +23,14 @@ I completed my undergraduate studies at the [Maxdo College (瀚德学院)](https
 
 Also, I'm serving as a part-time Junior Research Fellow at the [World Institute of Politics, Economy and Technology](https://wpet.org.cn/)<img src='./images/wpet.png' style='width: 6em;'>, with a research focus on international policy frameworks for AI and data governance.
 
+<a href="/assets/files/cv_peiyu_chen.pdf" target="_blank" class="btn btn-primary">View My CV</a>
+
+<!--
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-<!--
+
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -63,8 +66,13 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 - *2020.09 - 2024.06*, B.A. in Spanish, Beijing Normal University, Beijing.  
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+### Nudge: social advocacy, carbon label, and low-carbon consumption
+- *2023.09*, School of Public Policy and Management, University of Chinese Academy of Science
+- *2023.06*, Business School, Beijing Normal University
+- *2023.05*, Antai College,Shanghai Jiao Tong University
+
+# 🧑‍🏫 Teaching
+- *2024.03 - 2024.06*, Management Information Systems (MBA), Beijing Normal University
 
 # 💻 Internships
 - *2024.03 - 2024.06*, Telecommunication, [DETECON](https://www.detecon.com/en/about-us/locations/detecon-china), Beijing.
@@ -172,7 +180,7 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 
 <style>
 .masonry-gallery {
-  column-count: 3;
+  column-count: 5;
   column-gap: 1em;
   margin-top: 2em;
 }
@@ -222,3 +230,7 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
   }
 }
 </style>
+
+<p style="font-size: 0.9em; color: #666; text-align: center; margin-top: 3em;">
+  Updated at 2025-04-14 | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
+</p>
