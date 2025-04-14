@@ -9,7 +9,7 @@ permalink: /photography/
 
 <div class="masonry-gallery">
   <div class="photo-item">
-    <img src="/images/photography/“五星出东方利中国”锦护胒.png" alt="Wuxing Brocade">
+    <img src="/images/photography/“五星出东方利中国”锦护膊.png" alt="Wuxing Brocade">
     <div class="caption"><strong>“Wuxing Brings Prosperity to China” Brocade</strong><br>A rare piece of ancient Central Asian textile art, woven with auspicious Han characters.</div>
   </div>
   <div class="photo-item">
@@ -33,7 +33,7 @@ permalink: /photography/
     <div class="caption"><strong>Volcano No. 6</strong><br>A silent crater looms under a glass-blue sky — layers of ancient fire frozen in time.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/铁和淘水交汇.jpg" alt="Where Rivers Meet">
+    <img src="/images/photography/黄洮交汇.jpg" alt="Where Rivers Meet">
     <div class="caption"><strong>Where Rivers Meet</strong><br>Amber and teal collide in motion — a geographic pulse captured from the sky.</div>
   </div>
   <div class="photo-item">
