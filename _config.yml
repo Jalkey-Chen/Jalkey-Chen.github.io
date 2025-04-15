@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Peiyu CHEN (陈沛羽)/Personal Homepage"
-description              : "This is Chen Peiyu's personal homepage"
+title                    : "Peiyu CHEN (陈沛羽)/ Homepage"
+description              : # "This is Chen Peiyu's personal homepage"
 repository               : "Jalkey-Chen/Jalkey-Chen.github.io"
 # google_scholar_stats_use_cdn : true
 
@@ -37,6 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
+  cv               : "/assets/files/cv_peiyu_chen.pdf"
   github           : "Jalkey-Chen"
   google_plus      :
   keybase          :

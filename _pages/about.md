@@ -72,7 +72,7 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 - *2023.05*, Antai College,Shanghai Jiao Tong University
 
 # 🧑‍🏫 Teaching
-- *2024.03 - 2024.06*, Management Information Systems (MBA), Beijing Normal University
+- *2024.03 - 2024.06*, Teaching Assistant, Management Information Systems (MBA), Beijing Normal University
 
 # 💻 Internships
 - *2024.03 - 2024.06*, Telecommunication, [DETECON](https://www.detecon.com/en/about-us/locations/detecon-china), Beijing.
