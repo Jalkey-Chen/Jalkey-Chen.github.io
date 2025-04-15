@@ -23,8 +23,6 @@ I completed my undergraduate studies at the [Maxdo College (瀚德学院)](https
 
 Also, I'm serving as a part-time Junior Research Fellow at the [World Institute of Politics, Economy and Technology](https://wpet.org.cn/)<img src='./images/wpet.png' style='width: 6em;'>, with a research focus on international policy frameworks for AI and data governance.
 
-<a href="/assets/files/cv_peiyu_chen.pdf" target="_blank" class="btn btn-primary">View My CV</a>
-
 <!--
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
