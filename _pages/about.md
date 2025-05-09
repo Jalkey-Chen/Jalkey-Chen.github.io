@@ -46,6 +46,21 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 -->
 
+# 🧠 Ongoing Projects
+
+<div class="project-card">
+  <img src="/images/projects/llm_social_dialogue.png" alt="AI in group dialogue" class="research-image">
+  <div class="research-text">
+    <h3>Can LLMs Be One of Us?</h3>
+    <p>
+      This project explores whether LLMs can participate meaningfully in human group conversations—not just by generating relevant content, but by displaying socially appropriate interactional behaviors.
+      We examine how GPT adapts to different roles across formal, semi-formal, and informal settings. The study draws on Michael Silverstein’s theories of <em>interactional textuality</em> and <em>indexicality</em> to analyze how AI uses language to manage turn-taking, respond to challenges, repair ambiguity, and negotiate social norms.
+      This simulation-based framework offers new insights into AI’s capacity for constructing identity and trust in multi-party interactions.
+    </p>
+  </div>
+</div>
+
+
 # 🎖 Honors, Awards, and Grants
 ### Grants and Scholarships
 - *2024.09 ($5,000)* CAPP Startup Program, University of Chicago
