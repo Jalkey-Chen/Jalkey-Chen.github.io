@@ -247,3 +247,47 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 <p style="font-size: 0.9em; color: #666; text-align: center; margin-top: 3em;">
   Updated at 2025-04-14 | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
 </p>
+
+<style>
+.project-card {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  margin: 2em 0;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.project-img {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.project-img img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.project-text {
+  flex: 2 1 500px;
+  font-size: 0.95rem;
+  line-height: 1.6em;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-img,
+  .project-text {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .project-text {
+    margin-top: 1em;
+  }
+}
+</style>
