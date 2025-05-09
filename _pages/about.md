@@ -269,6 +269,7 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 
 .project-img img {
   width: 100%;
+  max-width: 300px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
