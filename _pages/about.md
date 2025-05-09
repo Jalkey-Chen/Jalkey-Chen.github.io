@@ -279,15 +279,10 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
   line-height: 1.6em;
 }
 
-@media (max-width: 768px) {
+/* Only apply column direction if screen is truly small */
+@media (max-width: 767px) {
   .project-card {
     flex-direction: column;
-  }
-  .project-img, .project-text {
-    max-width: 100%;
-  }
-  .project-text {
-    margin-top: 1em;
   }
 }
 </style>
