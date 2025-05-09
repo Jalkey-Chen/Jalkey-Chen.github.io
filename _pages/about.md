@@ -49,8 +49,8 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 # 🧠 Ongoing Projects
 
 <div class="project-card">
-  <img src="/images/projects/llm_social_dialogue.png" alt="AI in group dialogue" class="research-image">
-  <div class="research-text">
+  <img src="/images/projects/llm_social_dialogue.png" alt="AI in group dialogue" class="project-image">
+  <div class="project-text">
     <h3>Can LLMs Be One of Us?</h3>
     <p>
       This project explores whether LLMs can participate meaningfully in human group conversations—not just by generating relevant content, but by displaying socially appropriate interactional behaviors.
