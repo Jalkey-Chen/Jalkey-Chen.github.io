@@ -256,17 +256,21 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
   margin: 2em 0;
   align-items: flex-start;
   flex-wrap: wrap;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  padding: 1.5em;
 }
 
 .project-img {
   flex: 1 1 300px;
-  max-width: 400px;
+  max-width: 350px;
 }
 
 .project-img img {
   width: 100%;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
 .project-text {
@@ -279,13 +283,9 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
   .project-card {
     flex-direction: column;
   }
-
-  .project-img,
-  .project-text {
-    flex: 1 1 100%;
+  .project-img, .project-text {
     max-width: 100%;
   }
-
   .project-text {
     margin-top: 1em;
   }
