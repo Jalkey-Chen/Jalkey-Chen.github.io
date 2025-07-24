@@ -51,11 +51,9 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 <div class="project-card">
   <img src="/images/projects/llm_social_dialogue.png" alt="AI in group dialogue" class="project-img">
   <div class="project-text">
-    <h3>Can LLMs Be One of Us?</h3>
+    <h3>Can AI ever feel like “one of us” in a group conversation?</h3>
     <p>
-      This project explores whether LLMs can participate meaningfully in human group conversations—not just by generating relevant content, but by displaying socially appropriate interactional behaviors.
-      We examine how GPT adapts to different roles across formal, semi-formal, and informal settings. The study draws on Michael Silverstein’s theories of <em>interactional textuality</em> and <em>indexicality</em> to analyze how AI uses language to manage turn-taking, respond to challenges, repair ambiguity, and negotiate social norms.
-      This simulation-based framework offers new insights into AI’s capacity for constructing identity and trust in multi-party interactions.
+      This project examines what it would take for large language models to gain such interactional credibility. Building on Michael Silverstein’s theories of indexicality and interactional textuality, we place LLMs in simulated multi-party dialogues where ambiguity and role expectations test its ability to manage turn-taking, repair misunderstandings, vary register, and sustain social roles. Using a factorial design with prompt and role manipulations. We trace how interactional behaviors shift across formal and informal settings. These findings shed light on when LLMs can move from mere responders to co-constructors of identity and trust, offering clues to how humans might one day accept AI as part of their social world.
     </p>
   </div>
 </div>
@@ -88,6 +86,7 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 - *2024.03 - 2024.06*, Teaching Assistant, Management Information Systems (MBA), Beijing Normal University
 
 # 💻 Internships
+- *2025.07 - present*, Research Assistent, [The Perception and Judgment Lab](https://tlab.uchicago.edu/) & [Mindworks](https://www.chicagobooth.edu/mindworks), Booth School of Business, Chicago.
 - *2024.03 - 2024.06*, Telecommunication, [DETECON](https://www.detecon.com/en/about-us/locations/detecon-china), Beijing.
 - *2022.09 - 2024.02*, Center for Philanthropic Studies, [China Philanthropy Research Institute ](http://www.bnu1.org/), Beijing.
 
@@ -245,7 +244,7 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 </style>
 
 <p style="font-size: 0.9em; color: #666; text-align: center; margin-top: 3em;">
-  Updated at 2025-04-14 | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
+  Updated at 2025-07-24 | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
 </p>
 
 <style>
