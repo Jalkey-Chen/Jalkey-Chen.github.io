@@ -26,3 +26,7 @@ main:
 
   - title: "Civic Activities"
     url: "/#civic-activities"
+
+  - title: "Photography"
+    url: "/photography/"
+    cta: true

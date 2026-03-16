@@ -68,6 +68,27 @@
       height: 1rem;
       opacity: 0.8;
     }
+
+    .masthead__menu-item--cta a {
+      border: 1px solid #111827;
+      border-radius: 999px;
+      padding: 0.55rem 0.95rem;
+      background: linear-gradient(180deg, #ffffff, #f3f4f6);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.85) inset, 0 6px 18px rgba(15, 23, 42, 0.08);
+      font-weight: 700;
+    }
+
+    .masthead__menu-item--cta a:hover {
+      border-color: #8c5e3c;
+      text-decoration: none;
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 10px 22px rgba(15, 23, 42, 0.12);
+    }
+
+    @media (max-width: 768px) {
+      .masthead__menu-item--cta a {
+        padding: 0.4rem 0.8rem;
+      }
+    }
     </style>
 
 <!-- end custom head snippets -->

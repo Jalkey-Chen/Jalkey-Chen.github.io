@@ -17,18 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<p class="feature-link">
-  <a class="feature-link__button" href="{{ '/photography/' | relative_url }}">
-    <span class="feature-link__eyebrow">Visual Work</span>
-    <span class="feature-link__title">Enter Photography Gallery</span>
-  </a>
-</p>
-
 Hi! I'm Peiyu Chen (pronounced like *Pay-yoo Chuhn*), currently a first year MS student at the University of Chicago majoring in **computer science and public policy**. I'm interested in **human–AI interaction**, especially how algorithmic systems shape human judgment and decision-making. My work explores the design of interventions that promote more **equitable, transparent, and socially aware** uses of AI in everyday life.
 
 I completed my undergraduate studies at the [Maxdo College (瀚德学院)](https://bs.bnu.edu.cn/maxdo/AboutUs/hs/index.html) and [Business School](https://bs.bnu.edu.cn/englishversion/) of Beijing Normal University with a dual bachelor's degree in Economics and Spanish, where I was advised by Prof. [Haoran He (何浩然)](https://bs.bnu.edu.cn/englishversion/facultyresearch/fulltimefaculty/azmsy/119708.html) and Prof. [Lancui Liu (刘兰翠)](https://bs.bnu.edu.cn/englishversion/facultyresearch/fulltimefaculty/azmsy/211965.html). My research focused on how to use behavioral interventions—particularly nudges—to help people make better decisions.
 
 Also, I'm serving as a part-time Junior Research Fellow at the [World Institute of Politics, Economy and Technology](https://wpet.org.cn/)<img src='./images/wpet.png' loading='lazy' style='width: 6em;'>, with a research focus on international policy frameworks for AI and data governance.
+
+I'm also an amateur photographer. If you're interested, you can explore my photography work through the **Photography** button in the top navigation bar.
 
 <!--
 # 🔥 News
@@ -143,51 +138,6 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 </details>
 
 <style>
-.feature-link {
-  margin: 0 0 1.75rem;
-}
-
-.feature-link__button {
-  display: inline-flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  min-width: min(100%, 24rem);
-  padding: 1rem 1.2rem;
-  border: 1px solid #111827;
-  border-radius: 18px;
-  background:
-    linear-gradient(135deg, rgba(15, 23, 42, 0.05), rgba(148, 163, 184, 0.18)),
-    #fff;
-  box-shadow:
-    0 10px 24px rgba(15, 23, 42, 0.08),
-    0 0 0 3px rgba(15, 23, 42, 0.04) inset,
-    0 0 0 1px rgba(140, 94, 60, 0.12);
-  text-decoration: none !important;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-}
-
-.feature-link__button:hover {
-  transform: translateY(-2px);
-  border-color: #8c5e3c;
-  box-shadow:
-    0 14px 30px rgba(15, 23, 42, 0.12),
-    0 0 0 3px rgba(140, 94, 60, 0.08) inset;
-}
-
-.feature-link__eyebrow {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #8c5e3c;
-}
-
-.feature-link__title {
-  font-size: 1.08rem;
-  font-weight: 700;
-  color: #111827;
-}
-
 .section-panel {
   margin: 1rem 0 2.75rem;
   border: 1px solid #e5e7eb;

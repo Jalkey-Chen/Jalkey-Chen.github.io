@@ -141,11 +141,9 @@ author_profile: false
 body.gallery-page {
   min-height: 100vh;
   background:
-    radial-gradient(circle at 18% 18%, rgba(99, 102, 241, 0.16), transparent 24%),
-    radial-gradient(circle at 84% 14%, rgba(34, 211, 238, 0.12), transparent 22%),
-    radial-gradient(circle at 72% 76%, rgba(244, 114, 182, 0.1), transparent 24%),
-    linear-gradient(180deg, #05070c 0%, #0a0f18 42%, #101723 100%);
-  color: #f3f4f6;
+    linear-gradient(180deg, rgba(255, 255, 255, 0.045), transparent 18%),
+    linear-gradient(180deg, #080808 0%, #111111 100%);
+  color: #f5f5f4;
   overflow-x: hidden;
 }
 
@@ -153,36 +151,32 @@ body.gallery-page::before,
 body.gallery-page::after {
   content: "";
   position: fixed;
-  inset: auto;
-  width: 34rem;
-  height: 34rem;
-  border-radius: 999px;
-  filter: blur(84px);
-  opacity: 0.18;
+  inset: 0;
   pointer-events: none;
   z-index: 0;
 }
 
 body.gallery-page::before {
-  top: -10rem;
-  left: -8rem;
-  background: linear-gradient(135deg, #8b5cf6, #22d3ee);
-  animation: drift-a 18s ease-in-out infinite alternate;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 0, rgba(255, 255, 255, 0.055) 1px, transparent 1px, transparent 96px),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0, rgba(255, 255, 255, 0.03) 1px, transparent 1px, transparent 96px);
+  opacity: 0.2;
 }
 
 body.gallery-page::after {
-  right: -10rem;
-  bottom: -12rem;
-  background: linear-gradient(135deg, #fb7185, #f59e0b);
-  animation: drift-b 22s ease-in-out infinite alternate;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.08), transparent 18%),
+    radial-gradient(circle at 80% 16%, rgba(255, 255, 255, 0.04), transparent 16%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 32%);
+  opacity: 0.55;
 }
 
 .gallery-shell {
   position: relative;
   z-index: 1;
-  max-width: 1280px;
+  max-width: 1380px;
   margin: 0 auto;
-  padding: 2.5rem 1.5rem 3.25rem;
+  padding: 2.2rem 1.5rem 3.4rem;
 }
 
 .gallery-stage {
@@ -194,154 +188,116 @@ body.gallery-page::after {
 }
 
 .gallery-hero {
-  margin: 0 auto 2rem;
-  padding-top: 0.25rem;
+  margin: 0 0 2.4rem;
+  padding-top: 0.1rem;
 }
 
 .gallery-signature {
   display: inline-flex;
   flex-direction: column;
-  gap: 0.25rem;
-  padding: 0.4rem 0 0.9rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  gap: 0.2rem;
+  padding: 0 0 0.85rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
 }
 
 .gallery-name {
   margin: 0;
-  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-  font-size: clamp(1.1rem, 1.6vw, 1.45rem);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(0.95rem, 1.2vw, 1.1rem);
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: rgba(248, 250, 252, 0.92);
+  color: rgba(245, 245, 244, 0.92);
 }
 
 .gallery-name-zh {
   margin: 0;
-  font-size: 0.9rem;
-  letter-spacing: 0.22em;
-  color: rgba(226, 232, 240, 0.62);
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  color: rgba(231, 229, 228, 0.55);
 }
 
 .masonry-gallery {
   column-count: 3;
-  column-gap: 1.4rem;
+  column-gap: 2rem;
 }
 
 .photo-item {
   position: relative;
   break-inside: avoid;
-  margin: 0 0 1.4rem;
-  border-radius: 20px;
+  margin: 0 0 2rem;
+  border-radius: 0;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: transparent;
+  border: 0;
   box-shadow:
-    0 18px 44px rgba(0, 0, 0, 0.34),
-    0 0 0 1px rgba(255, 255, 255, 0.02) inset;
+    0 18px 44px rgba(0, 0, 0, 0.18);
   outline: none;
-}
-
-.photo-item::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.05) 100%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .photo-item img {
   display: block;
   width: 100%;
-  filter: saturate(0.96) contrast(1.03);
-  transition: transform 0.45s ease, filter 0.45s ease;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  filter: saturate(0.92) contrast(1.02);
+  transition: transform 0.35s ease, filter 0.35s ease, border-color 0.35s ease;
 }
 
 .photo-item:nth-child(3n + 2) {
-  transform: translateY(1.35rem);
+  transform: translateY(1.4rem);
 }
 
 .photo-item:nth-child(3n + 3) {
-  transform: translateY(0.45rem);
+  transform: translateY(0.55rem);
 }
 
 .photo-item:hover,
 .photo-item:focus-visible {
-  border-color: rgba(255, 255, 255, 0.16);
-}
-
-.photo-item:hover::after,
-.photo-item:focus-visible::after {
-  opacity: 1;
+  transform: translateY(-0.2rem);
 }
 
 .photo-item:hover img,
 .photo-item:focus-visible img {
-  transform: scale(1.025);
-  filter: saturate(1.06) contrast(1.05);
+  transform: scale(1.012);
+  filter: saturate(1) contrast(1.03);
+  border-color: rgba(255, 255, 255, 0.28);
 }
 
 .photo-caption {
-  position: absolute;
-  inset: auto 0 0 0;
+  position: static;
   display: flex;
   flex-direction: column;
-  gap: 0.28rem;
-  padding: 0.95rem 1rem 1rem;
-  background: linear-gradient(to top, rgba(5, 7, 12, 0.92), rgba(5, 7, 12, 0.1));
-  backdrop-filter: blur(8px);
-  opacity: 0;
-  transform: translateY(0.5rem);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.photo-item:hover .photo-caption,
-.photo-item:focus-visible .photo-caption {
-  opacity: 1;
-  transform: translateY(0);
+  gap: 0.3rem;
+  padding: 0.85rem 0.05rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 0.7rem;
 }
 
 .photo-caption__title {
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 700;
-  line-height: 1.35;
-  color: #f8fafc;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.45;
+  color: rgba(250, 250, 249, 0.92);
 }
 
 .photo-caption__text {
-  font-size: 0.82rem;
-  line-height: 1.45;
-  color: rgba(226, 232, 240, 0.82);
-}
-
-@keyframes drift-a {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-  to {
-    transform: translate3d(5rem, 4rem, 0);
-  }
-}
-
-@keyframes drift-b {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-  to {
-    transform: translate3d(-4rem, -3rem, 0);
-  }
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: rgba(214, 211, 209, 0.76);
 }
 
 @media (max-width: 1024px) {
   .masonry-gallery {
-    column-count: 3;
+    column-count: 2;
+    column-gap: 1.4rem;
   }
 }
 
 @media (max-width: 768px) {
   .gallery-shell {
-    padding-top: 1.8rem;
+    padding-top: 1.4rem;
   }
 
   .masonry-gallery {
@@ -353,15 +309,6 @@ body.gallery-page::after {
   .photo-item:nth-child(3n + 3) {
     transform: none;
   }
-
-  .photo-caption {
-    position: static;
-    opacity: 1;
-    transform: none;
-    background: rgba(7, 10, 16, 0.92);
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    backdrop-filter: none;
-  }
 }
 
 @media (max-width: 520px) {
@@ -370,7 +317,7 @@ body.gallery-page::after {
   }
 
   .gallery-name-zh {
-    letter-spacing: 0.18em;
+    letter-spacing: 0.14em;
   }
 }
 </style>
