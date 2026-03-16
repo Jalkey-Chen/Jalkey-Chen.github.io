@@ -244,7 +244,7 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 </style>
 
 <p style="font-size: 0.9em; color: #666; text-align: center; margin-top: 3em;">
-  Updated at {{ site.time | date: "%Y-%m-%d" }} | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" rel="noopener noreferrer" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
+  Updated at 2025-07-24 | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" rel="noopener noreferrer" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
 </p>
 
 <style>
