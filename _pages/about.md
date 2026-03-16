@@ -23,6 +23,13 @@ I completed my undergraduate studies at the [Maxdo College (瀚德学院)](https
 
 Also, I'm serving as a part-time Junior Research Fellow at the [World Institute of Politics, Economy and Technology](https://wpet.org.cn/)<img src='./images/wpet.png' loading='lazy' style='width: 6em;'>, with a research focus on international policy frameworks for AI and data governance.
 
+<p class="feature-link">
+  <a class="feature-link__button" href="/photography/">
+    <span class="feature-link__eyebrow">Visual Work</span>
+    <span class="feature-link__title">Enter Photography Gallery</span>
+  </a>
+</p>
+
 <!--
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -135,88 +142,51 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
   </div>
 </details>
 
-<span class='anchor' id='photography'></span>
-
-# 📷 Photography
-
-<details class="section-panel section-panel--gallery" data-section-panel>
-  <summary>A collection of moments through my lens — from tradition and terrain to shadow and light.</summary>
-
-  <div class="section-panel__content">
-    <div class="masonry-gallery">
-      <div class="photo-item">
-        <img src="/images/photography/“五星出东方利中国”锦护膊.png" alt="Wuxing Brocade" loading="lazy">
-        <div class="caption"><strong>“Wuxing Brings Prosperity to China” Brocade</strong><br>A rare piece of ancient Central Asian textile art, woven with auspicious Han characters.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/异域星球_叶风.png" alt="Alien Planet" loading="lazy">
-        <div class="caption"><strong>Alien Planet</strong><br>Dark stone folds like waves; a lone traveler crosses through strangeness and awe.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/在草地上起舞.jpg" alt="Dance on the Meadow" loading="lazy">
-        <div class="caption"><strong>Dance on the Meadow</strong><br>A fleeting motion among clouds and flowers — freedom, caught midair.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/登山时刻.jpg" alt="Uphill" loading="lazy">
-        <div class="caption"><strong>Uphill</strong><br>Among ancient firs and craggy ridges, steps pulse upward toward sky and silence.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/落日剪影.jpg" alt="Silhouettes at Dusk" loading="lazy">
-        <div class="caption"><strong>Silhouettes at Dusk</strong><br>Two wanderers in the sand watch the desert swallow the sun.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/6号火山.jpg" alt="Volcano No. 6" loading="lazy">
-        <div class="caption"><strong>Volcano No. 6</strong><br>A silent crater looms under a glass-blue sky — layers of ancient fire frozen in time.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/黄洮交汇.jpg" alt="Where Rivers Meet" loading="lazy">
-        <div class="caption"><strong>Where Rivers Meet</strong><br>Amber and teal collide in motion — a geographic pulse captured from the sky.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/银河1.jpg" alt="Milky Way" loading="lazy">
-        <div class="caption"><strong>Milky Way</strong><br>Galaxies draped above the horizon. An unfathomable silence fills the dark.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/颐和园.jpg" alt="Snowfall at the Summer Palace" loading="lazy">
-        <div class="caption"><strong>Snowfall at the Summer Palace</strong><br>Curved roofs wear snow like calligraphy — layered silence in imperial winter.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/落日下的大本钟.JPG" alt="Big Ben at Sundown" loading="lazy">
-        <div class="caption"><strong>Big Ben at Sundown</strong><br>A storm-lit dusk frames London’s silhouette — time, waiting in golden shadow.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/林中树桩.jpg" alt="Stillness in the Forest" loading="lazy">
-        <div class="caption"><strong>Stillness in the Forest</strong><br>Wrapped in green and silence, one sits where a tree once stood.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/码头与公园.jpg" alt="Sails and Seasons" loading="lazy">
-        <div class="caption"><strong>Sails and Seasons</strong><br>Anchored boats float beneath golden leaves — harbor and horizon in harmony.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/湖中建筑.jpg" alt="Observation Point" loading="lazy">
-        <div class="caption"><strong>Observation Point</strong><br>A dome-shaped eye gazes across the lake — stillness beneath layers of blue.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/湖边与路.jpg" alt="Streets Toward Water" loading="lazy">
-        <div class="caption"><strong>Streets Toward Water</strong><br>Urban motion slows as roads dissolve into trees, into shore, into quiet.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/长眠.jpg" alt="Rest by the Ocean" loading="lazy">
-        <div class="caption"><strong>Rest by the Ocean</strong><br>Between crosses and the tide, a glimpse of peace beyond the wall.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/帆船与海.jpg" alt="Twilight Anchor" loading="lazy">
-        <div class="caption"><strong>Twilight Anchor</strong><br>A lone mast lingers in the sea — dusk cradles its final light.</div>
-      </div>
-      <div class="photo-item">
-        <img src="/images/photography/草地.jpg" alt="Joy in the Wind" loading="lazy">
-        <div class="caption"><strong>Joy in the Wind</strong><br>With arms wide and laughter rising, a moment spins skyward in flight.</div>
-      </div>
-    </div>
-  </div>
-</details>
-
 <style>
+.feature-link {
+  margin: 1.5rem 0 2rem;
+}
+
+.feature-link__button {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: min(100%, 23rem);
+  padding: 1rem 1.2rem;
+  border: 1px solid #111827;
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, rgba(15, 23, 42, 0.03), rgba(148, 163, 184, 0.16)),
+    #fff;
+  box-shadow:
+    0 10px 24px rgba(15, 23, 42, 0.08),
+    0 0 0 3px rgba(15, 23, 42, 0.04) inset;
+  text-decoration: none !important;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.feature-link__button:hover {
+  transform: translateY(-2px);
+  border-color: #8c5e3c;
+  box-shadow:
+    0 14px 30px rgba(15, 23, 42, 0.12),
+    0 0 0 3px rgba(140, 94, 60, 0.08) inset;
+}
+
+.feature-link__eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8c5e3c;
+}
+
+.feature-link__title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #111827;
+}
+
 .section-panel {
   margin: 1rem 0 2.75rem;
   border: 1px solid #e5e7eb;
@@ -256,10 +226,6 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
   padding: 0 1.25rem 1.25rem;
 }
 
-.section-panel--gallery {
-  background: #fff;
-}
-
 .section-panel__content h3 {
   margin-top: 1.25rem;
   margin-bottom: 0.75rem;
@@ -269,63 +235,11 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
   margin-bottom: 0;
 }
 
-.masonry-gallery {
-  column-count: 4;
-  column-gap: 1rem;
-  margin-top: 0.5rem;
-}
-
-.photo-item {
-  position: relative;
-  break-inside: avoid;
-  margin-bottom: 1rem;
-  overflow: hidden;
-  border-radius: 12px;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
-  background: #e5e7eb;
-}
-
-.photo-item img {
-  width: 100%;
-  display: block;
-  transition: transform 0.35s ease;
-}
-
-.photo-item:hover img {
-  transform: scale(1.03);
-}
-
-.caption {
-  position: absolute;
-  inset: auto 0 0 0;
-  padding: 0.85rem 0.9rem;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.08));
-  color: #fff;
-  font-size: 0.92rem;
-  line-height: 1.45;
-  opacity: 0;
-  transition: opacity 0.25s ease;
-}
-
-.photo-item:hover .caption {
-  opacity: 1;
-}
-
 @media (max-width: 768px) {
   .section-panel summary::after {
     float: none;
     display: block;
     margin-top: 0.35rem;
-  }
-
-  .masonry-gallery {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 520px) {
-  .masonry-gallery {
-    column-count: 1;
   }
 }
 </style>

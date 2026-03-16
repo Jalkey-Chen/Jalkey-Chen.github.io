@@ -1,0 +1,24 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="gallery-page">
+    {% include browser-upgrade.html %}
+
+    <main class="gallery-shell" role="main">
+      <section class="gallery-stage" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {{ content }}
+      </section>
+    </main>
+
+    {% include scripts.html %}
+  </body>
+</html>
