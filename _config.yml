@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Peiyu CHEN (陈沛羽)/ Homepage"
-description              : # "This is Chen Peiyu's personal homepage"
+description              : "Peiyu Chen's academic homepage: human-AI interaction, public policy, and decision-making research at the University of Chicago."
 repository               : "Jalkey-Chen/Jalkey-Chen.github.io"
 # google_scholar_stats_use_cdn : true
 
@@ -30,6 +30,7 @@ author:
   googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "peiyuch@uchicago.edu"
   researchgate     : # e.g., "https://www.researchgate.net/profile/yourprofile"
+  uri              : "https://jalkey-chen.github.io"
   url              : https://jalkey-chen.github.io
   bitbucket        :
   codepen          :

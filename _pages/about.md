@@ -21,7 +21,7 @@ Hi! I'm Peiyu Chen (pronounced like *Pay-yoo Chuhn*), currently a first year MS 
 
 I completed my undergraduate studies at the [Maxdo College (瀚德学院)](https://bs.bnu.edu.cn/maxdo/AboutUs/hs/index.html) and [Business School](https://bs.bnu.edu.cn/englishversion/) of Beijing Normal University with a dual bachelor's degree in Economics and Spanish, where I was advised by Prof. [Haoran He (何浩然)](https://bs.bnu.edu.cn/englishversion/facultyresearch/fulltimefaculty/azmsy/119708.html) and Prof. [Lancui Liu (刘兰翠)](https://bs.bnu.edu.cn/englishversion/facultyresearch/fulltimefaculty/azmsy/211965.html). My research focused on how to use behavioral interventions—particularly nudges—to help people make better decisions.
 
-Also, I'm serving as a part-time Junior Research Fellow at the [World Institute of Politics, Economy and Technology](https://wpet.org.cn/)<img src='./images/wpet.png' style='width: 6em;'>, with a research focus on international policy frameworks for AI and data governance.
+Also, I'm serving as a part-time Junior Research Fellow at the [World Institute of Politics, Economy and Technology](https://wpet.org.cn/)<img src='./images/wpet.png' loading='lazy' style='width: 6em;'>, with a research focus on international policy frameworks for AI and data governance.
 
 <!--
 # 🔥 News
@@ -49,7 +49,7 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 # 🧠 Ongoing Projects
 
 <div class="project-card">
-  <img src="/images/projects/llm_social_dialogue.png" alt="AI in group dialogue" class="project-img">
+  <img src="/images/projects/llm_social_dialogue.png" alt="AI in group dialogue" class="project-img" loading="lazy">
   <div class="project-text">
     <h3>Can AI ever feel like “one of us” in a group conversation?</h3>
     <p>
@@ -86,7 +86,7 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 - *2024.03 - 2024.06*, Teaching Assistant, Management Information Systems (MBA), Beijing Normal University
 
 # 💻 Internships
-- *2025.07 - present*, Research Assistent, [The Perception and Judgment Lab](https://tlab.uchicago.edu/) & [Mindworks](https://www.chicagobooth.edu/mindworks), Booth School of Business, Chicago.
+- *2025.07 - present*, Research Assistant, [The Perception and Judgment Lab](https://tlab.uchicago.edu/) & [Mindworks](https://www.chicagobooth.edu/mindworks), Booth School of Business, Chicago.
 - *2024.03 - 2024.06*, Telecommunication, [DETECON](https://www.detecon.com/en/about-us/locations/detecon-china), Beijing.
 - *2022.09 - 2024.02*, Center for Philanthropic Studies, [China Philanthropy Research Institute ](http://www.bnu1.org/), Beijing.
 
@@ -121,71 +121,71 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 
 <div class="masonry-gallery">
   <div class="photo-item">
-    <img src="/images/photography/“五星出东方利中国”锦护膊.png" alt="Wuxing Brocade">
+    <img src="/images/photography/“五星出东方利中国”锦护膊.png" alt="Wuxing Brocade" loading="lazy">
     <div class="caption"><strong>“Wuxing Brings Prosperity to China” Brocade</strong><br>A rare piece of ancient Central Asian textile art, woven with auspicious Han characters.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/异域星球_叶风.png" alt="Alien Planet">
+    <img src="/images/photography/异域星球_叶风.png" alt="Alien Planet" loading="lazy">
     <div class="caption"><strong>Alien Planet</strong><br>Dark stone folds like waves; a lone traveler crosses through strangeness and awe.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/在草地上起舞.jpg" alt="Dance on the Meadow">
+    <img src="/images/photography/在草地上起舞.jpg" alt="Dance on the Meadow" loading="lazy">
     <div class="caption"><strong>Dance on the Meadow</strong><br>A fleeting motion among clouds and flowers — freedom, caught midair.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/登山时刻.jpg" alt="Uphill">
+    <img src="/images/photography/登山时刻.jpg" alt="Uphill" loading="lazy">
     <div class="caption"><strong>Uphill</strong><br>Among ancient firs and craggy ridges, steps pulse upward toward sky and silence.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/落日剪影.jpg" alt="Silhouettes at Dusk">
+    <img src="/images/photography/落日剪影.jpg" alt="Silhouettes at Dusk" loading="lazy">
     <div class="caption"><strong>Silhouettes at Dusk</strong><br>Two wanderers in the sand watch the desert swallow the sun.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/6号火山.jpg" alt="Volcano No. 6">
+    <img src="/images/photography/6号火山.jpg" alt="Volcano No. 6" loading="lazy">
     <div class="caption"><strong>Volcano No. 6</strong><br>A silent crater looms under a glass-blue sky — layers of ancient fire frozen in time.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/黄洮交汇.jpg" alt="Where Rivers Meet">
+    <img src="/images/photography/黄洮交汇.jpg" alt="Where Rivers Meet" loading="lazy">
     <div class="caption"><strong>Where Rivers Meet</strong><br>Amber and teal collide in motion — a geographic pulse captured from the sky.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/银河1.jpg" alt="Milky Way">
+    <img src="/images/photography/银河1.jpg" alt="Milky Way" loading="lazy">
     <div class="caption"><strong>Milky Way</strong><br>Galaxies draped above the horizon. An unfathomable silence fills the dark.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/颐和园.jpg" alt="Snowfall at the Summer Palace">
+    <img src="/images/photography/颐和园.jpg" alt="Snowfall at the Summer Palace" loading="lazy">
     <div class="caption"><strong>Snowfall at the Summer Palace</strong><br>Curved roofs wear snow like calligraphy — layered silence in imperial winter.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/落日下的大本钟.JPG" alt="Big Ben at Sundown">
+    <img src="/images/photography/落日下的大本钟.JPG" alt="Big Ben at Sundown" loading="lazy">
     <div class="caption"><strong>Big Ben at Sundown</strong><br>A storm-lit dusk frames London’s silhouette — time, waiting in golden shadow.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/林中树桩.jpg" alt="Stillness in the Forest">
+    <img src="/images/photography/林中树桩.jpg" alt="Stillness in the Forest" loading="lazy">
     <div class="caption"><strong>Stillness in the Forest</strong><br>Wrapped in green and silence, one sits where a tree once stood.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/码头与公园.jpg" alt="Sails and Seasons">
+    <img src="/images/photography/码头与公园.jpg" alt="Sails and Seasons" loading="lazy">
     <div class="caption"><strong>Sails and Seasons</strong><br>Anchored boats float beneath golden leaves — harbor and horizon in harmony.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/湖中建筑.jpg" alt="Observation Point">
+    <img src="/images/photography/湖中建筑.jpg" alt="Observation Point" loading="lazy">
     <div class="caption"><strong>Observation Point</strong><br>A dome-shaped eye gazes across the lake — stillness beneath layers of blue.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/湖边与路.jpg" alt="Streets Toward Water">
+    <img src="/images/photography/湖边与路.jpg" alt="Streets Toward Water" loading="lazy">
     <div class="caption"><strong>Streets Toward Water</strong><br>Urban motion slows as roads dissolve into trees, into shore, into quiet.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/长眠.jpg" alt="Rest by the Ocean">
+    <img src="/images/photography/长眠.jpg" alt="Rest by the Ocean" loading="lazy">
     <div class="caption"><strong>Rest by the Ocean</strong><br>Between crosses and the tide, a glimpse of peace beyond the wall.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/帆船与海.jpg" alt="Twilight Anchor">
+    <img src="/images/photography/帆船与海.jpg" alt="Twilight Anchor" loading="lazy">
     <div class="caption"><strong>Twilight Anchor</strong><br>A lone mast lingers in the sea — dusk cradles its final light.</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photography/草地.jpg" alt="Joy in the Wind">
+    <img src="/images/photography/草地.jpg" alt="Joy in the Wind" loading="lazy">
     <div class="caption"><strong>Joy in the Wind</strong><br>With arms wide and laughter rising, a moment spins skyward in flight.</div>
   </div>
 </div>
@@ -244,7 +244,7 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 </style>
 
 <p style="font-size: 0.9em; color: #666; text-align: center; margin-top: 3em;">
-  Updated at 2025-07-24 | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
+  Updated at {{ site.time | date: "%Y-%m-%d" }} | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" rel="noopener noreferrer" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
 </p>
 
 <style>
@@ -263,12 +263,8 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 
 .project-img {
   flex: 1 1 300px;
-  max-width: 350px;
-}
-
-.project-img img {
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
