@@ -17,18 +17,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<p class="feature-link">
+  <a class="feature-link__button" href="{{ '/photography/' | relative_url }}">
+    <span class="feature-link__eyebrow">Visual Work</span>
+    <span class="feature-link__title">Enter Photography Gallery</span>
+  </a>
+</p>
+
 Hi! I'm Peiyu Chen (pronounced like *Pay-yoo Chuhn*), currently a first year MS student at the University of Chicago majoring in **computer science and public policy**. I'm interested in **human–AI interaction**, especially how algorithmic systems shape human judgment and decision-making. My work explores the design of interventions that promote more **equitable, transparent, and socially aware** uses of AI in everyday life.
 
 I completed my undergraduate studies at the [Maxdo College (瀚德学院)](https://bs.bnu.edu.cn/maxdo/AboutUs/hs/index.html) and [Business School](https://bs.bnu.edu.cn/englishversion/) of Beijing Normal University with a dual bachelor's degree in Economics and Spanish, where I was advised by Prof. [Haoran He (何浩然)](https://bs.bnu.edu.cn/englishversion/facultyresearch/fulltimefaculty/azmsy/119708.html) and Prof. [Lancui Liu (刘兰翠)](https://bs.bnu.edu.cn/englishversion/facultyresearch/fulltimefaculty/azmsy/211965.html). My research focused on how to use behavioral interventions—particularly nudges—to help people make better decisions.
 
 Also, I'm serving as a part-time Junior Research Fellow at the [World Institute of Politics, Economy and Technology](https://wpet.org.cn/)<img src='./images/wpet.png' loading='lazy' style='width: 6em;'>, with a research focus on international policy frameworks for AI and data governance.
-
-<p class="feature-link">
-  <a class="feature-link__button" href="/photography/">
-    <span class="feature-link__eyebrow">Visual Work</span>
-    <span class="feature-link__title">Enter Photography Gallery</span>
-  </a>
-</p>
 
 <!--
 # 🔥 News
@@ -144,23 +144,24 @@ Also, I'm serving as a part-time Junior Research Fellow at the [World Institute 
 
 <style>
 .feature-link {
-  margin: 1.5rem 0 2rem;
+  margin: 0 0 1.75rem;
 }
 
 .feature-link__button {
   display: inline-flex;
   flex-direction: column;
   gap: 0.35rem;
-  min-width: min(100%, 23rem);
+  min-width: min(100%, 24rem);
   padding: 1rem 1.2rem;
   border: 1px solid #111827;
   border-radius: 18px;
   background:
-    linear-gradient(135deg, rgba(15, 23, 42, 0.03), rgba(148, 163, 184, 0.16)),
+    linear-gradient(135deg, rgba(15, 23, 42, 0.05), rgba(148, 163, 184, 0.18)),
     #fff;
   box-shadow:
     0 10px 24px rgba(15, 23, 42, 0.08),
-    0 0 0 3px rgba(15, 23, 42, 0.04) inset;
+    0 0 0 3px rgba(15, 23, 42, 0.04) inset,
+    0 0 0 1px rgba(140, 94, 60, 0.12);
   text-decoration: none !important;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
