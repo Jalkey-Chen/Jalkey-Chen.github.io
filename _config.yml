@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Peiyu CHEN (陈沛羽)/ Homepage"
-description              : "Peiyu Chen's academic homepage: human-AI interaction, public policy, and decision-making research at the University of Chicago."
+# description              : "Peiyu Chen's academic homepage: human-AI interaction, public policy, and decision-making research at the University of Chicago."
 repository               : "Jalkey-Chen/Jalkey-Chen.github.io"
 # google_scholar_stats_use_cdn : true
 
@@ -138,7 +138,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

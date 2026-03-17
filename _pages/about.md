@@ -21,7 +21,7 @@ Hi! I'm Peiyu Chen (pronounced like *Pay-yoo Chuhn*), currently a first year MS 
 
 I completed my undergraduate studies at the [Maxdo College (瀚德学院)](https://bs.bnu.edu.cn/maxdo/AboutUs/hs/index.html) and [Business School](https://bs.bnu.edu.cn/englishversion/) of Beijing Normal University with a dual bachelor's degree in Economics and Spanish, where I was advised by Prof. [Haoran He (何浩然)](https://bs.bnu.edu.cn/englishversion/facultyresearch/fulltimefaculty/azmsy/119708.html) and Prof. [Lancui Liu (刘兰翠)](https://bs.bnu.edu.cn/englishversion/facultyresearch/fulltimefaculty/azmsy/211965.html). My research focused on how to use behavioral interventions—particularly nudges—to help people make better decisions.
 
-Also, I'm serving as a part-time Junior Research Fellow at the [World Institute of Politics, Economy and Technology](https://wpet.org.cn/)<img src='./images/wpet.png' loading='lazy' style='width: 6em;'>, with a research focus on international policy frameworks for AI and data governance.
+Also, I'm serving as a Junior Research Fellow at the [World Institute of Politics, Economy and Technology](https://wpet.org.cn/)<img src='./images/wpet.png' loading='lazy' style='width: 6em;'>, with a research focus on international policy frameworks for AI and data governance.
 
 I'm also an amateur photographer. If you're interested, you can explore my photography work through the **Photography** button in the top navigation bar.
 
@@ -85,6 +85,8 @@ I'm also an amateur photographer. If you're interested, you can explore my photo
 - *2023.05*, Antai College,Shanghai Jiao Tong University
 
 # 🧑‍🏫 Teaching
+- *2026.03 - 2026.05*, Teaching Assistant, CAPP 30254 Machine Learning for Public Policy, University of Chicago
+- *2026.01 - 2026.03*, Teaching Assistant, CAPP 30271 Mathematics for Computer Science and Data Analysis/Linear Algebra, University of Chicago
 - *2024.03 - 2024.06*, Teaching Assistant, Management Information Systems (MBA), Beijing Normal University
 
 # 💻 Internships
@@ -221,7 +223,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <p style="font-size: 0.9em; color: #666; text-align: center; margin-top: 3em;">
-  Updated at 2025-07-24 | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" rel="noopener noreferrer" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
+  Updated at 2026-03-16 | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" rel="noopener noreferrer" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
 </p>
 
 <style>
