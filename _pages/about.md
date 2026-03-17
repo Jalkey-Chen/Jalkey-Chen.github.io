@@ -3,6 +3,9 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+last_updated: 2026-03-16
+page_scripts:
+  - /assets/js/about-panels.js
 redirect_from: 
   - /about/
   - /about.html
@@ -139,125 +142,6 @@ I'm an amateur photographer. If you're interested, you can explore my photograph
   </div>
 </details>
 
-<style>
-.section-panel {
-  margin: 1rem 0 2.75rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 14px;
-  background: #faf8f4;
-  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
-}
-
-.section-panel summary {
-  list-style: none;
-  cursor: pointer;
-  padding: 1rem 1.25rem;
-  font-size: 1rem;
-  font-weight: 600;
-  color: #1f2937;
-}
-
-.section-panel summary::-webkit-details-marker {
-  display: none;
-}
-
-.section-panel summary::after {
-  content: "Expand";
-  float: right;
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #8c5e3c;
-}
-
-.section-panel[open] summary::after {
-  content: "Collapse";
-}
-
-.section-panel__content {
-  padding: 0 1.25rem 1.25rem;
-}
-
-.section-panel__content h3 {
-  margin-top: 1.25rem;
-  margin-bottom: 0.75rem;
-}
-
-.section-panel__content ul {
-  margin-bottom: 0;
-}
-
-@media (max-width: 768px) {
-  .section-panel summary::after {
-    float: none;
-    display: block;
-    margin-top: 0.35rem;
-  }
-}
-</style>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  function openPanelFromHash() {
-    if (!window.location.hash) return;
-
-    var target = document.querySelector(window.location.hash);
-    if (!target) return;
-
-    var panel = null;
-    if (target.nextElementSibling && target.nextElementSibling.matches("details[data-section-panel]")) {
-      panel = target.nextElementSibling;
-    } else {
-      panel = target.closest("details[data-section-panel]");
-    }
-
-    if (panel) {
-      panel.open = true;
-    }
-  }
-
-  openPanelFromHash();
-  window.addEventListener("hashchange", openPanelFromHash);
-});
-</script>
-
-<p style="font-size: 0.9em; color: #666; text-align: center; margin-top: 3em;">
-  Updated at 2026-03-16 | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" rel="noopener noreferrer" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
+<p class="about-footer">
+  Updated at {{ page.last_updated }} | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" rel="noopener noreferrer" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
 </p>
-
-<style>
-.project-card {
-  display: flex;
-  flex-direction: row;
-  gap: 1.5em;
-  margin: 2em 0;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
-  padding: 1.5em;
-}
-
-.project-img {
-  flex: 1 1 300px;
-  width: 100%;
-  max-width: 350px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-}
-
-.project-text {
-  flex: 2 1 500px;
-  font-size: 0.95rem;
-  line-height: 1.6em;
-}
-
-/* Only apply column direction if screen is truly small */
-@media (max-width: 767px) {
-  .project-card {
-    flex-direction: column;
-  }
-}
-</style>
