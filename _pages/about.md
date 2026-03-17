@@ -53,15 +53,7 @@ I'm an amateur photographer. If you're interested, you can explore my photograph
 
 # 🧠 Ongoing Projects
 
-<div class="project-card">
-  <img src="/images/projects/llm_social_dialogue.png" alt="AI in group dialogue" class="project-img" loading="lazy">
-  <div class="project-text">
-    <h3>Can AI ever feel like “one of us” in a group conversation?</h3>
-    <p>
-      This project examines what it would take for large language models to gain such interactional credibility. Building on Michael Silverstein’s theories of indexicality and interactional textuality, we place LLMs in simulated multi-party dialogues where ambiguity and role expectations test its ability to manage turn-taking, repair misunderstandings, vary register, and sustain social roles. Using a factorial design with prompt and role manipulations. We trace how interactional behaviors shift across formal and informal settings. These findings shed light on when LLMs can move from mere responders to co-constructors of identity and trust, offering clues to how humans might one day accept AI as part of their social world.
-    </p>
-  </div>
-</div>
+{% include project-cards.html projects=site.data.ongoing_projects %}
 
 
 # 🎖 Honors, Awards, and Grants
@@ -101,46 +93,9 @@ I'm an amateur photographer. If you're interested, you can explore my photograph
 
 # 🤝 Civic Activities
 
-<details class="section-panel" data-section-panel>
-  <summary>I stay involved in community work across environmental advocacy, education, culture, and local civic organizing.</summary>
-
-  <div class="section-panel__content">
-    <h3>🌍 Environmental Advocacy</h3>
-    <ul>
-      <li><em>2024.10 - 2025.06</em>, Student Reviewer, <a href="https://climate.uchicago.edu/green-fund/">Green Fund</a>, University of Chicago.</li>
-      <li><em>2024.06 - 2024.09</em>, Communication strategist in stray animal welfare for <a href="https://www.tajijin.cn/home">Ta Foundation (它基金)</a>, <a href="https://www.theabconline.org/about">A Better Community-ABC</a></li>
-      <li><em>2024.06</em>, Wetland Conservation Education Volunteer, WWF (China).</li>
-      <li><em>2023.10</em>, Volunteer, <a href="https://geosus2023.scievent.com/">2023 International Workshop on Geography and Sustainability</a>.</li>
-    </ul>
-
-    <h3>📚 Education & Equity</h3>
-    <ul>
-      <li><em>2023.05 - 2023.08</em>, Team Leader, “Bright Future” Volunteer Teaching Team, <a href="http://www.meilizhongguo.org/">Teach For China (美丽中国支教项目)</a></li>
-      <li><em>2022.12 - 2023.02</em>, Communications Lead (Deputy), "China Dream · Strong Teachers” Winter Online Teaching Program, Beijing Normal University</li>
-      <li><em>2021.04 - 2021.07</em>, Lecturer in Cryptography, Chishui No.6 Middle School</li>
-    </ul>
-
-    <h3>🏮 Cultural Stories and Actions</h3>
-    <ul>
-      <li><em>2024.12</em>, Exhibitor, <a href="https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1729028/1729037/1729027/543485007/index.html">"When Ancient Bells Meet Contemporary Art"</a>, <a href="https://en.wikipedia.org/wiki/Big_Bell_Temple">Dazhong Temple</a></li>
-    </ul>
-
-    <h3>🌟 Leadership Experience</h3>
-    <ul>
-      <li><em>2022.09 - 2023.10</em>, Vice President, <a href="https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E7%99%BD%E9%B8%BD%E9%9D%92%E5%B9%B4%E5%BF%97%E6%84%BF%E8%80%85%E5%8D%8F%E4%BC%9A/4469857">Baige Youth Volunteer Association</a>, Beijing Normal University</li>
-      <li><em>2018.06 - 2019.06</em>, President, Student Union, Xinyu No.4 Middle School</li>
-    </ul>
-
-    <h3>🏘️ Community Empowerment</h3>
-    <ul>
-      <li><em>2024.10 - present</em>, First-year Liaison → Board Member, <a href="https://uchicago.presence.io/organization/south-side-civic">South Side Civic</a>, University of Chicago</li>
-      <li><em>2024.10 - present</em>, Author, case study on the development of regional hub organizations, <a href="http://www.sanyfoundation.org/">Sany Foundation</a></li>
-      <li><em>2023.09 - 2023.12</em>, Fundraising Strategy Consultant, <a href="https://www.cfpa.org.cn/project/GNProjectDetail.aspx?id=110">Flowing Water Plan (活水计划)</a>, <a href="https://www.cfpa.org.cn/index.aspx">China Foundation for Rural Development</a></li>
-      <li><em>2022.12 & 2023.12</em>, Data Analyst, <a href="https://cn.chinadaily.com.cn/a/202402/02/WS65bc50d4a31026469ab1732d.html">China Top 100 Philanthropy List (中国公益百杰榜)</a></li>
-      <li><em>2022.09 - 2023.02</em>, Contributing Author, <a href="https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E7%BA%A2%E5%8D%81%E5%AD%97%E4%BC%9A40%E5%B9%B4/64044519"><em>40th Anniversary of the Red Cross Society of China Shenzhen Branch</em></a>, <a href="https://www.szredcross.org.cn/main/">Red Cross Society of China Shenzhen Branch (深圳市红十字会)</a></li>
-    </ul>
-  </div>
-</details>
+{% include civic-activities-panel.html
+  summary="I stay involved in community work across environmental advocacy, education, culture, and local civic organizing."
+  groups=site.data.civic_activities %}
 
 <p class="about-footer">
   Updated at {{ page.last_updated }} | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" rel="noopener noreferrer" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.

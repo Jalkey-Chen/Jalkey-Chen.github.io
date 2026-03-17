@@ -1,0 +1,14 @@
+- image: /images/projects/llm_social_dialogue.png
+  image_alt: AI in group dialogue
+  title: Can AI ever feel like “one of us” in a group conversation?
+  description: >
+    This project examines what it would take for large language models to gain
+    such interactional credibility. Building on Michael Silverstein’s theories
+    of indexicality and interactional textuality, we place LLMs in simulated
+    multi-party dialogues where ambiguity and role expectations test its ability
+    to manage turn-taking, repair misunderstandings, vary register, and sustain
+    social roles. Using a factorial design with prompt and role manipulations.
+    We trace how interactional behaviors shift across formal and informal
+    settings. These findings shed light on when LLMs can move from mere
+    responders to co-constructors of identity and trust, offering clues to how
+    humans might one day accept AI as part of their social world.
