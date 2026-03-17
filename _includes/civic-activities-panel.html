@@ -2,13 +2,6 @@
   <summary>{{ include.summary }}</summary>
 
   <div class="section-panel__content">
-    {% for group in include.groups %}
-      <h3>{{ group.heading }}</h3>
-      <ul>
-        {% for item in group.items %}
-          <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-        {% endfor %}
-      </ul>
-    {% endfor %}
+    {% include grouped-markdown-lists.html groups=include.groups %}
   </div>
 </details>

@@ -1,0 +1,6 @@
+{% for group in include.groups %}
+  {% if group.heading %}
+    <h3>{{ group.heading }}</h3>
+  {% endif %}
+  {% include markdown-list.html items=group.items %}
+{% endfor %}

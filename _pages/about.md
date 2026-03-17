@@ -57,37 +57,19 @@ I'm an amateur photographer. If you're interested, you can explore my photograph
 
 
 # 🎖 Honors, Awards, and Grants
-### Grants and Scholarships
-- *2024.09 ($5,000)* CAPP Startup Program, University of Chicago
-- *2024.02 ($20,000)* Minnesota Nonresident Tuition Awards (offered), University of Minnesota (Twin Cities Campus)
-- *2022.06 ($6,000)* Undergraduate Research Grants, Ministry of Education of the PRC & Beijing Normal University
-
-### Honors and Awards
-- *2024.06* [AHEC (Amur-Heilong Environmental Conservation) Ambassadors](https://www.wwfchina.org/news-detail?id=2254&type=3), WWF (China) (9 candidates in China each year)
-- *2024.03* Best Team, [Young Ambassador Program](https://tyen.tcs-asia.org/program/3), Trilateral Cooperation Secretariat (1 team across China, Japan, and Korea each year)
-- *2023.11* [Top Ten Volunteers](https://youth.bnu.edu.cn/jstx/95c9f4db301e48d29bfd3583c17955a4.html), Beijing Normal University
-- *2023.05* Grand Prize, [The 9th China National College Student Competition on Energy Economics](http://energy.qibebt.ac.cn/eneco/contribution/index.html#/newsDetail?id=9d66d0a0-f870-11ed-9cd6-4baac5585629&activeTab=1&select=9) (Top 10 among 6148)
+{% include grouped-markdown-lists.html groups=site.data.honors_and_grants %}
 
 # 📖 Educations
-- *2024.09 - present*, M.S. in Computational Analysis & Public Policy, University of Chicago, Chicago. 
-- *2020.09 - 2024.06*, B.Econ. in International Economics & Trade, Beijing Normal University, Beijing.
-- *2020.09 - 2024.06*, B.A. in Spanish, Beijing Normal University, Beijing.  
+{% include markdown-list.html items=site.data.educations %}
 
 # 💬 Invited Talks
-### Nudge: social advocacy, carbon label, and low-carbon consumption
-- *2023.09*, School of Public Policy and Management, University of Chinese Academy of Science
-- *2023.06*, Business School, Beijing Normal University
-- *2023.05*, Antai College,Shanghai Jiao Tong University
+{% include grouped-markdown-lists.html groups=site.data.invited_talks %}
 
 # 🧑‍🏫 Teaching
-- *2026.03 - 2026.05*, Teaching Assistant, CAPP 30254 Machine Learning for Public Policy, University of Chicago
-- *2026.01 - 2026.03*, Teaching Assistant, CAPP 30271 Mathematics for Computer Science and Data Analysis/Linear Algebra, University of Chicago
-- *2024.03 - 2024.06*, Teaching Assistant, Management Information Systems (MBA), Beijing Normal University
+{% include markdown-list.html items=site.data.teaching %}
 
 # 💻 Internships
-- *2025.07 - present*, Research Assistant, [The Perception and Judgment Lab](https://tlab.uchicago.edu/) & [Mindworks](https://www.chicagobooth.edu/mindworks), Booth School of Business, Chicago.
-- *2024.03 - 2024.06*, Telecommunication, [DETECON](https://www.detecon.com/en/about-us/locations/detecon-china), Beijing.
-- *2022.09 - 2024.02*, Center for Philanthropic Studies, [China Philanthropy Research Institute ](http://www.bnu1.org/), Beijing.
+{% include markdown-list.html items=site.data.internships %}
 
 <span class='anchor' id='civic-activities'></span>
 
