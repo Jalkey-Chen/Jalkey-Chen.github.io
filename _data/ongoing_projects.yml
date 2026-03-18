@@ -7,6 +7,12 @@
     - Social trust
     - Group decision-making
   collaborators: []
+  # Example:
+  # collaborators:
+  #   - name: Maria Milosh
+  #     url: https://maria-milosh.github.io/index.html
+  #   - name: Harmonica
+  #     url: https://harmonica.chat/
   description: >
     This project examines what it would take for large language models to gain
     such interactional credibility. Building on Michael Silverstein’s theories

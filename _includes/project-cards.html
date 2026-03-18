@@ -26,7 +26,15 @@
         {% if project.collaborators and project.collaborators.size > 0 %}
           <div class="project-card__group">
             <p class="project-card__meta-label">Collaborators</p>
-            <p class="project-card__meta-text">{{ project.collaborators | join: ", " }}</p>
+            <p class="project-card__meta-text">
+              {% for collaborator in project.collaborators %}
+                {% if collaborator.name %}
+                  {{ collaborator.name }}{% unless forloop.last %}, {% endunless %}
+                {% else %}
+                  {{ collaborator }}{% unless forloop.last %}, {% endunless %}
+                {% endif %}
+              {% endfor %}
+            </p>
           </div>
         {% endif %}
 
@@ -66,7 +74,19 @@
         {% if project.collaborators and project.collaborators.size > 0 %}
           <div class="project-card__group">
             <p class="project-card__meta-label">Collaborators</p>
-            <p class="project-card__meta-text">{{ project.collaborators | join: ", " }}</p>
+            <p class="project-card__meta-text">
+              {% for collaborator in project.collaborators %}
+                {% if collaborator.name %}
+                  {% if collaborator.url %}
+                    <a href="{{ collaborator.url }}" target="_blank" rel="noopener noreferrer">{{ collaborator.name }}</a>{% unless forloop.last %}, {% endunless %}
+                  {% else %}
+                    {{ collaborator.name }}{% unless forloop.last %}, {% endunless %}
+                  {% endif %}
+                {% else %}
+                  {{ collaborator }}{% unless forloop.last %}, {% endunless %}
+                {% endif %}
+              {% endfor %}
+            </p>
           </div>
         {% endif %}
 
