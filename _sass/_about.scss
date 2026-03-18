@@ -1,3 +1,7 @@
+body.project-modal-open {
+  overflow: hidden;
+}
+
 .page__content {
   .section-panel {
     margin: 1rem 0 2.75rem;
@@ -159,6 +163,7 @@
     border-radius: 22px;
     padding: 0;
     overflow: hidden;
+    overscroll-behavior: contain;
     background: #fcfcfb;
     box-shadow: 0 24px 70px rgba(15, 23, 42, 0.3);
   }
@@ -206,6 +211,8 @@
   .project-modal__content {
     padding: 2.25rem 2rem;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
   }
 
   .project-modal__content h3 {
@@ -292,6 +299,8 @@
       width: min(100vw - 1rem, 100%);
       max-height: calc(100vh - 1rem);
       border-radius: 16px;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
     }
 
     .project-modal__close {
@@ -303,7 +312,8 @@
     }
 
     .project-modal__layout {
-      grid-template-columns: 1fr;
+      display: block;
+      min-height: auto;
     }
 
     .project-modal__image {
@@ -312,6 +322,7 @@
 
     .project-modal__content {
       padding: 1.4rem 1.2rem 1.5rem;
+      overflow-y: visible;
     }
 
     .project-modal__content h3 {
