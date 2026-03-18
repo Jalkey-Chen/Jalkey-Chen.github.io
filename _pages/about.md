@@ -6,6 +6,7 @@ author_profile: true
 last_updated: 2026-03-16
 page_scripts:
   - /assets/js/about-panels.js
+  - /assets/js/project-modals.js
 redirect_from: 
   - /about/
   - /about.html

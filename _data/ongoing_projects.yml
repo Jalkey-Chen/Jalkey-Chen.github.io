@@ -1,6 +1,12 @@
 - image: /images/projects/llm_social_dialogue.png
   image_alt: AI in group dialogue
   title: Can AI ever feel like “one of us” in a group conversation?
+  keywords:
+    - Human-AI interaction
+    - LLM dialogue
+    - Social trust
+    - Group decision-making
+  collaborators: []
   description: >
     This project examines what it would take for large language models to gain
     such interactional credibility. Building on Michael Silverstein’s theories

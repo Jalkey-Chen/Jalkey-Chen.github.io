@@ -1,9 +1,79 @@
+<div class="project-card-grid">
+  {% for project in include.projects %}
+    {% assign modal_id = "project-modal-" | append: forloop.index %}
+    <button
+      type="button"
+      class="project-card"
+      data-project-modal-open="{{ modal_id }}"
+      aria-haspopup="dialog"
+      aria-controls="{{ modal_id }}">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt }}" class="project-img" loading="lazy">
+      <div class="project-card__body">
+        <p class="project-card__label">Ongoing Project</p>
+        <h3>{{ project.title }}</h3>
+
+        {% if project.keywords %}
+          <div class="project-card__group">
+            <p class="project-card__meta-label">Keywords</p>
+            <ul class="project-card__tags">
+              {% for keyword in project.keywords %}
+                <li>{{ keyword }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+
+        {% if project.collaborators and project.collaborators.size > 0 %}
+          <div class="project-card__group">
+            <p class="project-card__meta-label">Collaborators</p>
+            <p class="project-card__meta-text">{{ project.collaborators | join: ", " }}</p>
+          </div>
+        {% endif %}
+
+        <p class="project-card__cta">View details</p>
+      </div>
+    </button>
+  {% endfor %}
+</div>
+
 {% for project in include.projects %}
-  <div class="project-card">
-    <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt }}" class="project-img" loading="lazy">
-    <div class="project-text">
-      <h3>{{ project.title }}</h3>
-      <p>{{ project.description }}</p>
+  {% assign modal_id = "project-modal-" | append: forloop.index %}
+  <dialog id="{{ modal_id }}" class="project-modal" aria-labelledby="{{ modal_id }}-title">
+    <button type="button" class="project-modal__close" data-project-modal-close aria-label="Close project details">
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+    <div class="project-modal__layout">
+      <div class="project-modal__image-wrap">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt }}" class="project-modal__image" loading="lazy">
+      </div>
+
+      <div class="project-modal__content">
+        <p class="project-card__label">Ongoing Project</p>
+        <h3 id="{{ modal_id }}-title">{{ project.title }}</h3>
+
+        {% if project.keywords %}
+          <div class="project-card__group">
+            <p class="project-card__meta-label">Keywords</p>
+            <ul class="project-card__tags">
+              {% for keyword in project.keywords %}
+                <li>{{ keyword }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+
+        {% if project.collaborators and project.collaborators.size > 0 %}
+          <div class="project-card__group">
+            <p class="project-card__meta-label">Collaborators</p>
+            <p class="project-card__meta-text">{{ project.collaborators | join: ", " }}</p>
+          </div>
+        {% endif %}
+
+        <div class="project-modal__description">
+          {{ project.description | markdownify }}
+        </div>
+      </div>
     </div>
-  </div>
+  </dialog>
 {% endfor %}
