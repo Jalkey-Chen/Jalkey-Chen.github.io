@@ -2,20 +2,16 @@
   image_alt: AI in group dialogue
   title: Can AI ever feel like “one of us” in a group conversation?
   keywords:
-    - Human-AI interaction
-    - LLM dialogue
-    - Social trust
-    - Group decision-making
-  collaborators: []
-  # Example:
-  # collaborators:
-  #   - name: Maria Milosh
-  #     url: https://maria-milosh.github.io/index.html
-  #   - name: Harmonica
-  #     url: https://harmonica.chat/
+    - Human-AI Interaction
+    - LLM Dialogue
+    - Group Conversation
+    - Indexicality
+  collaborators:
+    - name: Eugene Yu Ji
+      url: https://www.eugeneyuji.com/
   description: >
     This project examines what it would take for large language models to gain
-    such interactional credibility. Building on Michael Silverstein’s theories
+    such interactional credibility. Building on Michael Silverstein's theories
     of indexicality and interactional textuality, we place LLMs in simulated
     multi-party dialogues where ambiguity and role expectations test its ability
     to manage turn-taking, repair misunderstandings, vary register, and sustain
@@ -24,3 +20,31 @@
     settings. These findings shed light on when LLMs can move from mere
     responders to co-constructors of identity and trust, offering clues to how
     humans might one day accept AI as part of their social world.
+
+- image: /images/projects/ai_facilitation_decision-making.png
+  image_alt: AI in group decision-making
+  title: "Supporting Collective Judgment in Participatory Funding Decisions: An AI-Assisted Framework"
+  keywords:
+    - AI-Mediated Deliberation
+    - Participatory Decision-Making
+    - Human-in-the-Loop Systems
+    - Text-as-Data
+  collaborators:
+    - name: Maria Milosh
+      url: https://maria-milosh.github.io/
+    - name: Fynn Bachmann
+      url: https://fynnbachmann.com/
+    - name: Anastasia Gergel
+    - name: Artem Zhiganov
+      url: https://about.me/zhiganov
+  description: >
+    This project develops an AI-assisted framework for participatory resource
+    allocation that improves collective judgment without replacing human
+    decision-making. It introduces a structured learning phase before voting,
+    in which participants are exposed to neutral summaries of diverse viewpoints
+    and reasoning across the group, helping them better understand others'
+    needs, constraints, and trade-offs before revising their own positions. By
+    using AI only to organize and surface distributed perspectives at
+    scale—rather than to make evaluative decisions—the project
+    aims to improve the fairness, quality, and legitimacy of collective funding
+    and budgeting outcomes in participatory governance settings.

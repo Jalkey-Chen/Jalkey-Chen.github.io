@@ -96,15 +96,6 @@
     padding: 0.9rem 0.95rem 0.95rem;
   }
 
-  .project-card__label {
-    margin: 0;
-    font-size: 0.68rem;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #9a3412;
-  }
-
   .project-card h3 {
     margin: 0;
     font-size: 0.98rem;
@@ -218,7 +209,7 @@
   }
 
   .project-modal__content h3 {
-    margin-top: 0.35rem;
+    margin-top: 0;
     margin-bottom: 1.25rem;
     font-size: 1.8rem;
     line-height: 1.25;

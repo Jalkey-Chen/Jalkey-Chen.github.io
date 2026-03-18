@@ -9,7 +9,6 @@
       aria-controls="{{ modal_id }}">
       <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt }}" class="project-img" loading="lazy">
       <div class="project-card__body">
-        <p class="project-card__label">Ongoing Project</p>
         <h3>{{ project.title }}</h3>
 
         {% if project.keywords %}
@@ -57,7 +56,6 @@
       </div>
 
       <div class="project-modal__content">
-        <p class="project-card__label">Ongoing Project</p>
         <h3 id="{{ modal_id }}-title">{{ project.title }}</h3>
 
         {% if project.keywords %}
