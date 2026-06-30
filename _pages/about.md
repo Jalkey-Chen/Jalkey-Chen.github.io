@@ -3,6 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+body_class: home-landing
 last_updated: 2026-03-16
 page_scripts:
   - /assets/js/about-panels.js
@@ -18,6 +19,50 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
+<section class="academic-hero" aria-labelledby="hero-name">
+  <header class="academic-hero__nav" aria-label="Primary">
+    <a class="academic-hero__brand" href="/">Peiyu Chen</a>
+    <nav class="academic-hero__links">
+      <a href="/#-ongoing-projects">Research</a>
+      <a href="/#selected-writing">Writing</a>
+      <a href="/#news">News</a>
+      <a href="/assets/files/cv_peiyu_chen.pdf">CV</a>
+    </nav>
+  </header>
+
+  <div class="academic-hero__inner">
+    <p class="academic-hero__statement">
+      I study the human questions behind technological change.
+    </p>
+
+    <div class="academic-hero__intro">
+      <h1 id="hero-name">Peiyu Chen</h1>
+
+      <div class="academic-hero__meta" aria-label="Current position and research focus">
+        <div class="academic-hero__position">
+          <p>Research Assistant</p>
+          <p>Booth School of Business</p>
+          <p>The University of Chicago</p>
+        </div>
+
+        <p class="academic-hero__research">
+          I work across Human–AI Interaction, Behavioral Economics, and Technology Governance.
+        </p>
+      </div>
+
+      <div class="academic-hero__actions" aria-label="Quick links">
+        <a href="/#-ongoing-projects">Current Work <span aria-hidden="true">→</span></a>
+        <a href="/#selected-writing">Selected Writing <span aria-hidden="true">→</span></a>
+        <a href="/assets/files/cv_peiyu_chen.pdf">Download CV <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </div>
+
+  <a class="academic-hero__scroll" href="#about-me" aria-label="Scroll to explore"></a>
+</section>
+
+<div class="home-content-shell" markdown="1">
 
 <span class='anchor' id='about-me'></span>
 
@@ -83,3 +128,5 @@ I'm an amateur photographer. If you're interested, you can explore my photograph
 <p class="about-footer">
   Updated at {{ page.last_updated }} | Thanks <a href="https://github.com/RayeRen/rayeren.github.io/tree/main" target="_blank" rel="noopener noreferrer" style="color: #708090; text-decoration: underline;">Ren Yi</a> for open source template.
 </p>
+
+</div>
