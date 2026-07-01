@@ -1,0 +1,59 @@
+{% assign formation = site.data.formation %}
+
+<section class="formation-section" id="formation" aria-labelledby="formation-title">
+  <div class="formation-section__chapter" aria-label="{{ formation.chapter_label }}, {{ formation.chapter_title }}">
+    <span>{{ formation.chapter_label }}</span>
+    <span>{{ formation.chapter_title }}</span>
+  </div>
+
+  <div class="formation-section__inner">
+    <div class="formation-section__intro">
+      <h2 id="formation-title">{{ formation.title }}</h2>
+      <p>{{ formation.intro }}</p>
+    </div>
+
+    <div class="formation-section__categories" aria-label="Formation categories">
+      {% for category in formation.categories %}
+        <article class="formation-category">
+          <div class="formation-category__heading">
+            <p class="formation-category__number">{{ category.number }}</p>
+            <h3>{{ category.title }}</h3>
+            <p>{{ category.thesis }}</p>
+          </div>
+
+          <div class="formation-category__detail">
+            <div class="formation-featured">
+              <p class="formation-featured__label">Featured moment</p>
+              <h4>{{ category.featured.title }}</h4>
+              <p class="formation-featured__meta">{{ category.featured.meta }}</p>
+              <p>{{ category.featured.description }}</p>
+            </div>
+
+            <div class="formation-media" role="img" aria-label="{{ category.media.alt }}">
+              <p class="formation-media__label">Media placeholder</p>
+              <p>{{ category.media.placeholderLabel }}</p>
+              <span>{{ category.media.type }}</span>
+            </div>
+
+            {% if category.alsoShapedBy %}
+              <p class="formation-also"><span>Also shaped by</span> {{ category.alsoShapedBy | join: ' · ' }}</p>
+            {% endif %}
+
+            {% if category.resources %}
+              <div class="formation-resources" aria-label="{{ category.title }} related resources">
+                <span>Related resources</span>
+                {% for resource in category.resources %}
+                  <a href="{{ resource.href }}">{{ resource.label }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+
+      {% if formation.archiveLink.href %}
+        <a class="formation-section__archive" href="{{ formation.archiveLink.href }}">{{ formation.archiveLink.label }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>

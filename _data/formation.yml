@@ -1,0 +1,104 @@
+chapter_label: Chapter 04
+chapter_title: Formation
+title: What Shaped My Questions
+intro: Not a biography, but a few sources of attention.
+archiveLink:
+  label: View full civic and formation archive →
+  href: /activities
+categories:
+  - number: "01"
+    title: Teaching as Explanation
+    thesis: "Teaching made explanation feel like a research problem: complex ideas only matter when people can actually understand and use them."
+    featured:
+      title: Volunteer Teaching Team Lead
+      meta: Teach For China / Bright Future, 2023
+      description: Led rural education volunteer work and began thinking seriously about access, explanation, and educational inequality.
+    media:
+      type: image or video
+      placeholderLabel: Teaching / classroom photo or short video
+      alt: Students and volunteers during a rural teaching program.
+      src:
+      href:
+    alsoShapedBy:
+      - Lecturer in Cryptography, Chishui No.6 Middle School
+      - Teaching Assistant, University of Chicago
+      - public-facing AI explanation work
+    resources:
+      - label: Program page
+        href: "#"
+      - label: Teaching reflection
+        href: "#"
+      - label: Related media
+        href: "#"
+  - number: "02"
+    title: Public Value Before Technology
+    thesis: "Civic and environmental work made technology feel less like an abstract field and more like a question of access, institutions, and public value."
+    featured:
+      title: Student Reviewer
+      meta: Green Fund, University of Chicago, 2024-2025
+      description: Reviewed sustainability projects and learned how small institutional decisions shape public outcomes.
+    media:
+      type: image
+      placeholderLabel: Environmental / civic project image
+      alt: A public-facing sustainability or civic engagement project.
+      src:
+      href:
+    alsoShapedBy:
+      - AHEC Ambassadors, WWF China
+      - Ta Foundation / A Better Community
+      - environmental education
+    resources:
+      - label: Green Fund
+        href: "#"
+      - label: WWF / AHEC
+        href: "#"
+      - label: Related report or project page
+        href: "#"
+  - number: "03"
+    title: Institutions in Everyday Life
+    thesis: "Work around nonprofits, foundations, and local communities shaped my interest in how systems translate ideals into practical outcomes."
+    featured:
+      title: Center for Philanthropic Studies
+      meta: China Philanthropy Research Institute, 2022-2024
+      description: Worked around philanthropic research and nonprofit-sector knowledge production.
+    media:
+      type: document/image/link preview
+      placeholderLabel: Research report, case study, or institutional project
+      alt: A report or public-facing institutional research output.
+      src:
+      href:
+    alsoShapedBy:
+      - South Side Civic
+      - China Top 100 Philanthropy List
+      - Sany Foundation regional hub case study
+    resources:
+      - label: Philanthropy research
+        href: "#"
+      - label: Case study
+        href: "#"
+      - label: Related public report
+        href: "#"
+  - number: "04"
+    title: Translation Across Worlds
+    thesis: "Moving between languages, countries, disciplines, and audiences made me attentive to translation: not only between words, but between knowledge and use."
+    featured:
+      title: B.A. in Spanish
+      meta: Beijing Normal University, 2020-2024
+      description: Trained across language, culture, and international communication.
+    media:
+      type: image or external writing preview
+      placeholderLabel: Language, writing, or international exchange image
+      alt: A moment of cross-cultural communication or public writing.
+      src:
+      href:
+    alsoShapedBy:
+      - Young Ambassador Program
+      - public writing on technology governance
+      - China-Chicago academic transition
+    resources:
+      - label: Young Ambassador Program
+        href: "#"
+      - label: Public writing archive
+        href: "#"
+      - label: Related article or essay
+        href: "#"
