@@ -4,7 +4,7 @@ title: ""
 excerpt: ""
 author_profile: true
 body_class: home-landing
-last_updated: 2026-03-16
+last_updated: 2026-07-01
 page_scripts:
   - /assets/js/about-panels.js
   - /assets/js/project-modals.js
@@ -46,13 +46,12 @@ redirect_from:
 
       <div class="academic-hero__meta" aria-label="Current position and research focus">
         <div class="academic-hero__position">
-          <p>Research Assistant</p>
-          <p>Booth School of Business</p>
-          <p>The University of Chicago</p>
+          <p>Research Professional</p>
+          <p>Booth School of Business, The University of Chicago</p>
         </div>
-
+        <br>
         <p class="academic-hero__research">
-          I work across AI interaction, behavioral economics, and technology governance — asking how intelligent systems reshape communication, judgment, public value, and institutional life.
+          I study how AI systems shape human trust, judgment, and decision-making. Drawing on human–AI interaction, behavioral economics, and technology governance, I design and evaluate interventions that help people understand, question, and use AI in more transparent and socially aware ways.
         </p>
       </div>
     </div>
