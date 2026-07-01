@@ -1,0 +1,66 @@
+chapter_label: Chapter 05
+chapter_title: Returning
+title: What I'm Still Returning To
+intro: A few open questions, resources, and visual notes I expect to keep revisiting.
+visualNotesLink:
+  label: View visual notes →
+  href: /photography/
+openQuestions:
+  - title: Making AI understandable in high-stakes settings
+    note: Healthcare, public services, and other places where explanation is not decorative.
+  - title: Studying judgment under technological change
+    note: How people decide, trust, delegate, resist, or reinterpret intelligent systems.
+  - title: Connecting research, writing, and public value
+    note: How academic work can travel beyond papers without becoming simplified beyond use.
+resources:
+  - title: Books / Essays
+    type: Reading shelf
+    note: A short list of books and essays that shape how I think.
+    href: "#"
+  - title: Research Centers / Reports
+    type: Institutions and reports
+    note: Places I return to for AI, governance, and public policy.
+    href: "#"
+  - title: Tools / Methods
+    type: Methods shelf
+    note: Methods, datasets, and tools I use or want to learn from.
+    href: "#"
+visualNotes:
+  - caption: Photo placeholder
+    alt: Placeholder for a future visual note.
+    src:
+    href: "#"
+  - caption: Field observation placeholder
+    alt: Placeholder for a future field observation.
+    src:
+    href: "#"
+  - caption: Document or report detail
+    alt: Placeholder for a future document or report visual note.
+    src:
+    href: "#"
+  - caption: City, institution, or public space
+    alt: Placeholder for a future public-space visual note.
+    src:
+    href: "#"
+contactLinks:
+  - label: Email
+    href: mailto:peiyuch@uchicago.edu
+    icon: fas fa-envelope
+  - label: CV
+    href: /assets/files/cv_peiyu_chen.pdf
+    icon: fas fa-file-alt
+  - label: GitHub
+    href: https://github.com/Jalkey-Chen
+    icon: fab fa-github
+  - label: LinkedIn
+    href: https://www.linkedin.com/in/peiyu-chen-jalkey
+    icon: fab fa-linkedin-in
+  - label: Instagram
+    href: https://instagram.com/chenpy_jalkey
+    icon: fab fa-instagram
+  - label: Twitter
+    href: https://twitter.com/peiyuch
+    icon: fab fa-twitter
+  - label: Google Scholar
+    href: "#"
+    icon: ai ai-google-scholar

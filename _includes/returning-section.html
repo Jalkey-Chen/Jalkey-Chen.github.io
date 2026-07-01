@@ -1,0 +1,84 @@
+{% assign returning = site.data.returning %}
+
+<section class="returning-section" id="returning" aria-labelledby="returning-title">
+  <div class="returning-section__chapter" aria-label="{{ returning.chapter_label }}, {{ returning.chapter_title }}">
+    <span>{{ returning.chapter_label }}</span>
+    <span>{{ returning.chapter_title }}</span>
+  </div>
+
+  <div class="returning-section__header">
+    <h2 id="returning-title">{{ returning.title }}</h2>
+    <p>{{ returning.intro }}</p>
+  </div>
+
+  <div class="returning-section__body">
+    <section class="returning-panel returning-panel--questions" aria-labelledby="returning-open-questions">
+      <h3 id="returning-open-questions">Open Questions</h3>
+      <div class="returning-list">
+        {% for question in returning.openQuestions %}
+          <article class="returning-note">
+            <h4>{{ question.title }}</h4>
+            <p>{{ question.note }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="returning-panel returning-panel--resources" aria-labelledby="returning-resources">
+      <h3 id="returning-resources">Resources I Return To</h3>
+      <div class="returning-list">
+        {% for resource in returning.resources %}
+          <article class="returning-resource">
+            <h4>{{ resource.title }}</h4>
+            <p class="returning-resource__type">{{ resource.type }}</p>
+            <p>{{ resource.note }}</p>
+            {% if resource.href %}
+              <a href="{{ resource.href }}">Open shelf →</a>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="returning-panel returning-panel--visual" aria-labelledby="returning-visual-notes">
+      <div class="returning-panel__heading">
+        <h3 id="returning-visual-notes">Visual Notes</h3>
+        {% if returning.visualNotesLink.href %}
+          <a href="{{ returning.visualNotesLink.href }}">{{ returning.visualNotesLink.label }}</a>
+        {% endif %}
+      </div>
+
+      <div class="returning-visual-grid" aria-label="Visual note placeholders">
+        {% for note in returning.visualNotes %}
+          {% if note.href %}
+            <a class="returning-visual" href="{{ note.href }}" aria-label="{{ note.caption }}">
+          {% else %}
+            <div class="returning-visual" role="img" aria-label="{{ note.alt }}">
+          {% endif %}
+              {% if note.src %}
+                <img src="{{ note.src }}" alt="{{ note.alt }}" loading="lazy">
+              {% else %}
+                <span>Photo placeholder</span>
+              {% endif %}
+              <p>{{ note.caption }}</p>
+          {% if note.href %}
+            </a>
+          {% else %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+
+  <footer class="returning-section__contact" aria-label="Contact and site links">
+    {% for link in returning.contactLinks %}
+      <a href="{{ link.href }}">
+        {% if link.icon %}
+          <i class="{{ link.icon }}" aria-hidden="true"></i>
+        {% endif %}
+        <span>{{ link.label }}</span>
+      </a>
+    {% endfor %}
+  </footer>
+</section>
