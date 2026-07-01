@@ -20,9 +20,9 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<section class="academic-hero" aria-labelledby="hero-name">
+<section class="academic-hero" id="now" aria-labelledby="hero-name">
   <header class="academic-hero__nav" aria-label="Primary">
-    <a class="academic-hero__brand" href="/">Peiyu Chen</a>
+    <a class="academic-hero__brand" href="#now">About</a>
     <nav class="academic-hero__links">
       <a href="/#questions">Research</a>
       <a href="/#selected-work">Work</a>
@@ -51,7 +51,7 @@ redirect_from:
         </div>
         <br>
         <p class="academic-hero__research">
-          I study how AI systems shape human trust, judgment, and decision-making. Drawing on human–AI interaction, behavioral economics, and technology governance, I design and evaluate interventions that help people understand, question, and use AI in more transparent and socially aware ways.
+          I study how AI systems shape human trust, judgment, and decision-making. Drawing on human–AI interaction, behavioral science, and technology governance, I design and evaluate interventions that help people understand, question, and use AI in more transparent and socially aware ways.
         </p>
       </div>
     </div>
