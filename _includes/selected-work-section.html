@@ -1,0 +1,42 @@
+{% assign selected_work = site.data.selected_work %}
+
+<section class="selected-work-section" id="selected-work" aria-labelledby="selected-work-title">
+  <div class="selected-work-section__chapter" aria-label="{{ selected_work.chapter_label }}, {{ selected_work.chapter_title }}">
+    <span>{{ selected_work.chapter_label }}</span>
+    <span>{{ selected_work.chapter_title }}</span>
+  </div>
+
+  <div class="selected-work-section__header">
+    <h2 id="selected-work-title">{{ selected_work.title }}</h2>
+    <p>{{ selected_work.intro }}</p>
+  </div>
+
+  <div class="selected-work-section__index-note">
+    <span>Organized by question</span>
+  </div>
+
+  <div class="selected-work-section__index" aria-label="Selected work organized by research question">
+    {% for theme in selected_work.themes %}
+      <section class="work-column" aria-labelledby="work-theme-{{ forloop.index }}">
+        <div class="work-column__heading">
+          <p class="work-column__number">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</p>
+          <h3 id="work-theme-{{ forloop.index }}">{{ theme.label }}</h3>
+          <p>{{ theme.question }}</p>
+        </div>
+
+        <div class="work-column__items">
+          {% for item in theme.items %}
+            <article class="work-entry">
+              <h4>{{ item.title }}</h4>
+              <p class="work-entry__type">{{ item.type }}</p>
+              <p class="work-entry__description">{{ item.description }}</p>
+              {% if item.link %}
+                <a class="work-entry__link" href="{{ item.link }}">{{ item.link_label | default: 'View' }}</a>
+              {% endif %}
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,59 @@
+chapter_label: Chapter 03
+chapter_title: Selected Work
+title: Selected Work
+intro: Research, writing, and projects organized around the questions that currently guide my work.
+themes:
+  - label: Understanding
+    question: How can intelligent systems become understandable?
+    items:
+      - title: CLARITY
+        type: Research / AI for patient communication
+        description: Patient-facing explanations for clinician-verified medical information.
+        link: "#"
+        link_label: View work →
+      - title: Medical AI Explanations
+        type: Project / Health communication
+        description: Designing clearer ways to communicate complex medical information.
+        link: "#"
+        link_label: View work →
+      - title: Public Communication
+        type: Writing
+        description: Translating technical and policy ideas for broader audiences.
+        link: "#"
+        link_label: Read more →
+  - label: Judgment & Decision-making
+    question: How does technology reshape human judgment and decision-making?
+    items:
+      - title: Human–AI Interaction
+        type: Research
+        description: Studying how people interpret and respond to intelligent systems.
+        link: "#"
+        link_label: View work →
+      - title: Behavioral Experiments
+        type: Research
+        description: Experimental work on judgment, perception, and decision-making.
+        link: "#"
+        link_label: View work →
+      - title: AI and Workplace Perceptions
+        type: Project / Experiment
+        description: How AI characteristics shape perceptions of warmth, competence, and behavior.
+        link: "#"
+        link_label: View work →
+  - label: Public Value
+    question: How can emerging technologies create public value?
+    items:
+      - title: AI Governance Essays
+        type: Writing
+        description: Analysis of international technology governance and institutional design.
+        link: "#"
+        link_label: Read more →
+      - title: Digital Policy Briefs
+        type: Writing / Policy
+        description: Public-facing analysis of platform governance, AI policy, and digital sovereignty.
+        link: "#"
+        link_label: Read more →
+      - title: Technology Governance Weekly
+        type: Writing
+        description: Commentary on emerging events in global technology governance.
+        link: "#"
+        link_label: Read more →
