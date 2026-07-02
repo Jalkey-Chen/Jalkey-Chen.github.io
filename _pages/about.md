@@ -36,6 +36,17 @@ redirect_from:
     <div class="academic-hero__identity">
       <h1 id="hero-name">Peiyu Chen</h1>
 
+      <figure class="academic-hero__portrait">
+        <img
+          src="/images/Chen%20Peiyu_cropped.jpg"
+          alt="Portrait of Peiyu Chen"
+          width="1479"
+          height="1479"
+          loading="eager"
+          decoding="async"
+        >
+      </figure>
+
       <div class="academic-hero__meta" aria-label="Current position and research focus">
         <div class="academic-hero__position">
           <p>Research Professional</p>
@@ -61,9 +72,9 @@ redirect_from:
 
   <div class="questions-section__inner">
     <div class="questions-section__lede">
-      <h2 id="questions-title">What connects the work</h2>
+      <h2 id="questions-title">A Line of Inquiry</h2>
       <p>
-        Across my research and writing, I&rsquo;m drawn to questions about how technologies become understandable, how they shape human judgment, and how they can create public value.
+        Across my research, writing, and technical work, I keep returning to three connected questions: how systems become legible, how they shape judgment, and how they can be directed toward public value.
       </p>
     </div>
 
@@ -71,48 +82,30 @@ redirect_from:
       <article class="question-item">
         <p class="question-item__number">01</p>
         <div class="question-item__content">
-          <h3>How can intelligent systems become understandable?</h3>
+          <h3>What makes AI systems understandable to the people expected to use them?</h3>
           <p>
-            From patient-facing medical AI to public communication, I&rsquo;m interested in how complex systems can be explained in ways people can actually use, question, and trust.
+            Explanation is not just a technical feature. I am interested in what people need to see, compare, and question before an intelligent system becomes something they can actually use.
           </p>
-          <div class="question-item__related" aria-label="Related work">
-            <span class="question-item__related-label">Related work</span>
-            <span>Clarity</span>
-            <span>Medical AI</span>
-            <span>Public Communication</span>
-          </div>
         </div>
       </article>
 
       <article class="question-item">
         <p class="question-item__number">02</p>
         <div class="question-item__content">
-          <h3>How does technology reshape human judgment and decision-making?</h3>
+          <h3>How does AI change the way people judge and decide?</h3>
           <p>
-            I study how new tools, interfaces, and institutions affect how people evaluate information, make choices, and understand responsibility.
+            Intelligent systems do not only produce answers; they change the conditions under which people form confidence, defer to expertise, notice uncertainty, and take responsibility for a choice.
           </p>
-          <div class="question-item__related" aria-label="Related work">
-            <span class="question-item__related-label">Related work</span>
-            <span>Human&ndash;AI Interaction</span>
-            <span>Behavioral Economics</span>
-            <span>Experiments</span>
-          </div>
         </div>
       </article>
 
       <article class="question-item">
         <p class="question-item__number">03</p>
         <div class="question-item__content">
-          <h3>How can emerging technologies create public value?</h3>
+          <h3>How can emerging technologies be designed and governed for public value?</h3>
           <p>
-            I follow the policy and governance questions that appear when technologies move from labs and firms into healthcare, education, public institutions, and everyday life.
+            I am interested in what happens after technologies leave the lab: how they enter institutions, redistribute responsibility, and become part of public communication, access, and accountability.
           </p>
-          <div class="question-item__related" aria-label="Related work">
-            <span class="question-item__related-label">Related work</span>
-            <span>AI Governance</span>
-            <span>Digital Policy</span>
-            <span>Public Writing</span>
-          </div>
         </div>
       </article>
     </div>
