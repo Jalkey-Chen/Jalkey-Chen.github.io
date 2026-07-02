@@ -1,0 +1,45 @@
+intro: "Selected visual notes, photo essays, and small exhibitions."
+series:
+  - title: Cities in Transition
+    year: 2026
+    location: Placeholder
+    note: "A future photo series on movement, construction, and ordinary public space."
+    href: "#"
+    images:
+      - caption: Street corner study
+      - caption: Transit and waiting
+      - caption: Edges of public life
+      - caption: Evening infrastructure
+  - title: Rooms, Windows, and Public Life
+    year: 2026
+    location: Placeholder
+    note: "A future series on interiors, thresholds, and the quiet social life of built spaces."
+    href: "#"
+    images:
+      - caption: Window note
+      - caption: Shared table
+      - caption: Corridor light
+      - caption: Interior fragment
+  - title: Lake Michigan Notes
+    year: 2026
+    location: Chicago
+    note: "A small visual notebook for water, weather, distance, and public rest."
+    href: "#"
+    images:
+      - caption: Lake horizon
+      - caption: Winter edge
+      - caption: Public path
+      - caption: Weather study
+index:
+  - year: 2026
+    title: Cities in Transition
+    status: Placeholder series
+    href: "#"
+  - year: 2026
+    title: Rooms, Windows, and Public Life
+    status: Placeholder series
+    href: "#"
+  - year: 2026
+    title: Lake Michigan Notes
+    status: Placeholder series
+    href: "#"

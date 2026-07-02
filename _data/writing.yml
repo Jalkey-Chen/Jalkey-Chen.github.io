@@ -1,0 +1,45 @@
+intro: "Essays, commentary, and notes on technology governance, AI policy, public institutions, and the social life of emerging systems."
+categories:
+  - AI Governance
+  - Technology Governance
+  - Digital Sovereignty
+  - Privacy / Data Governance
+  - Platform Regulation
+  - Public Institutions
+  - Notes
+posts:
+  - title: When AI Governance Moves from Principles to Practice
+    date: 2026
+    category: AI Governance
+    type: Essay placeholder
+    status: Draft
+    dek: "A placeholder essay on what changes when governance ideals meet institutions, procurement, and public use."
+    href: "#"
+  - title: Digital Sovereignty and the New Language of Partnerships
+    date: 2026
+    category: Digital Sovereignty
+    type: Commentary placeholder
+    status: Planned
+    dek: "Notes on sovereignty, infrastructure, and international technology partnerships."
+    href: "#"
+  - title: Age Gates, Platforms, and the Governance of Childhood
+    date: 2026
+    category: Platform Regulation
+    type: Brief placeholder
+    status: Planned
+    dek: "A public-facing note on platform design, verification, and the politics of childhood online."
+    href: "#"
+  - title: Privacy Law After Data Collection
+    date: 2026
+    category: Privacy / Data Governance
+    type: Essay placeholder
+    status: Planned
+    dek: "A future essay on data governance after collection becomes ordinary, ambient, and institutional."
+    href: "#"
+  - title: Open-Weight Models and Global AI Diffusion
+    date: 2026
+    category: Technology Governance
+    type: Note placeholder
+    status: Planned
+    dek: "A note on model openness, diffusion, institutional capacity, and governance tradeoffs."
+    href: "#"

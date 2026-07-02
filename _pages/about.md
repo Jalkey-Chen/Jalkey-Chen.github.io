@@ -21,15 +21,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <section class="academic-hero" id="now" aria-labelledby="hero-name">
-  <header class="academic-hero__nav" aria-label="Primary">
-    <a class="academic-hero__brand" href="#now">About</a>
-    <nav class="academic-hero__links">
-      <a href="/#questions">Research</a>
-      <a href="/#selected-work">Work</a>
-      <a href="/#formation">Formation</a>
-      <a href="/assets/files/cv_peiyu_chen.pdf">CV</a>
-    </nav>
-  </header>
+  {% include site-header.html %}
 
   <div class="academic-hero__chapter" aria-label="Chapter 01, Now">
     <span>Chapter 01</span>
@@ -56,11 +48,6 @@ redirect_from:
       </div>
     </div>
 
-    <div class="academic-hero__actions" aria-label="Quick links">
-      <a href="/#returning">Current Notes <span aria-hidden="true">→</span></a>
-      <a href="/#selected-work">Selected Work <span aria-hidden="true">→</span></a>
-      <a href="/assets/files/cv_peiyu_chen.pdf">Download CV <span aria-hidden="true">↓</span></a>
-    </div>
   </div>
 
   <a class="academic-hero__scroll" href="#questions" aria-label="Scroll to questions"></a>

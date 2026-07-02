@@ -1,0 +1,75 @@
+intro: "Public life has shaped how I think about institutions, communication, and collective decision-making. This page gathers selected activities, events, and spaces I have helped organize or sustain."
+featured:
+  - title: Green Fund Student Review
+    role: Student Reviewer
+    year: "2024-2025"
+    location: University of Chicago
+    description: "Reviewed sustainability projects and learned how small institutional decisions shape public outcomes."
+    media: "Sustainability project media placeholder"
+    links:
+      - label: Green Fund
+        href: "#"
+      - label: Related coverage
+        href: "#"
+  - title: Teach For China / Bright Future
+    role: Volunteer Teaching Team Lead
+    year: "2023"
+    location: Rural education program
+    description: "Led rural education volunteer work and began thinking seriously about access, explanation, and educational inequality."
+    media: "Teaching media placeholder"
+    links:
+      - label: Program page
+        href: "#"
+      - label: Reflection
+        href: "#"
+  - title: South Side Civic
+    role: Participant
+    year: "2024-present"
+    location: Chicago
+    description: "Participated in local civic organizing and community-facing institutional work."
+    media: "Community event media placeholder"
+    links:
+      - label: Project page
+        href: "#"
+  - title: Public Communication for Advocacy
+    role: Communication Strategist
+    year: "2024"
+    location: Public engagement
+    description: "Supported public communication work for animal welfare advocacy and broader civic engagement."
+    media: "Communication material placeholder"
+    links:
+      - label: Related media
+        href: "#"
+categories:
+  - Community Building
+  - Public Programs
+  - Research Events
+  - Volunteer Work
+  - Student / Campus Life
+  - Creative Gatherings
+archive:
+  - year: 2025
+    title: Green Fund Student Review
+    role: Student Reviewer
+    organization: University of Chicago
+    href: "#"
+  - year: 2024
+    title: South Side Civic
+    role: Participant
+    organization: University of Chicago
+    href: "#"
+  - year: 2024
+    title: AHEC Ambassadors
+    role: Participant
+    organization: WWF China
+    href: "#"
+  - year: 2023
+    title: Teach For China / Bright Future
+    role: Volunteer Teaching Team Lead
+    organization: Teach For China
+    href: "#"
+  - year: 2022
+    title: China Top 100 Philanthropy List
+    role: Data analysis contributor
+    organization: China Philanthropy Research Institute
+    href: "#"

@@ -1,0 +1,80 @@
+intro: "My research examines how AI systems shape human judgment and decision-making, especially in contexts of explanation, communication, and public-facing decisions. Drawing on human-AI interaction, behavioral science, and technology governance, I design and evaluate interventions that make AI use more transparent, reflective, and socially aware."
+areas:
+  - Human-AI Interaction
+  - Behavioral Science
+  - Technology Governance
+  - AI Explanation and Communication
+  - Public-Facing Decision Systems
+  - Computational Social Science
+questions:
+  - How do AI explanations shape user understanding, trust, and judgment?
+  - When do people defer to algorithmic systems, and when do they question them?
+  - How can interface design support more reflective human decision-making?
+  - How should public institutions communicate AI-mediated decisions?
+  - What forms of governance make AI systems accountable in everyday use?
+projects:
+  - title: "CLARITY: AI Explanations for Patient Communication"
+    status: Current
+    question: How can patient-facing AI explanations make clinician-verified medical information easier to understand and question?
+    methods: "Human-centered design, evaluation studies, health communication"
+    affiliation: "Booth School of Business / University of Chicago"
+    abstract: "A research project on explanation, trust, and usability in high-stakes medical communication."
+    links:
+      - label: Project note
+        href: "#"
+  - title: Human Judgment in AI-Mediated Decisions
+    status: Developing
+    question: How do people update beliefs, delegate judgment, or resist advice when AI systems mediate decisions?
+    methods: "Behavioral experiments, survey design, interface studies"
+    affiliation: "University of Chicago"
+    abstract: "Placeholder for ongoing work on trust, deference, and responsibility in AI-mediated choices."
+    links:
+      - label: Working abstract
+        href: "#"
+  - title: Behavioral Experiments on AI Advice and Trust
+    status: Placeholder
+    question: Which forms of AI advice lead people toward better calibrated trust and more reflective decisions?
+    methods: "Online experiments, applied econometrics, experimental design"
+    affiliation: "Independent / collaborative research"
+    abstract: "A placeholder entry for experimental work on advice, perception, and decision-making."
+    links:
+      - label: Materials
+        href: "#"
+  - title: Technology Governance and Policy Translation
+    status: Ongoing writing
+    question: How can governance debates be translated for public audiences without losing institutional complexity?
+    methods: "Policy analysis, comparative governance, public communication"
+    affiliation: "Public writing and policy research"
+    abstract: "Writing and analysis at the intersection of technology governance, public institutions, and communication."
+    links:
+      - label: Writing archive
+        href: "/writing/"
+publications:
+  - title: Working Paper Placeholder
+    authors: "Peiyu Chen"
+    status: In preparation
+    venue: Working paper
+    year: 2026
+    note: "Placeholder for an academic manuscript or preprint."
+    link: "#"
+  - title: Research Note Placeholder
+    authors: "Peiyu Chen"
+    status: Draft
+    venue: Research note
+    year: 2026
+    note: "Placeholder for a shorter research output, extended abstract, or workshop paper."
+    link: "#"
+methods:
+  - Behavioral experiments
+  - Applied econometrics
+  - Survey design
+  - Computational text analysis
+  - Python / R / Stata
+  - Qualitative coding
+links:
+  - label: Research statement
+    href: "#"
+  - label: Download CV
+    href: "/assets/files/cv_peiyu_chen.pdf"
+  - label: Email
+    href: "mailto:peiyuch@uchicago.edu"

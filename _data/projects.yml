@@ -1,0 +1,86 @@
+intro: "Selected coding, data, and interactive projects: tools and systems built to extract, organize, explain, and make information usable."
+categories:
+  - Data Pipelines
+  - Interactive Tools
+  - Web Apps
+  - Automation
+  - Visualization
+  - AI / LLM Experiments
+  - Archives and Interfaces
+items:
+  - title: Official Register OCR / Extraction Pipeline
+    category: Data Pipelines
+    year: 2026
+    status: Placeholder
+    description: Extracting structured information from scanned or semi-structured public documents.
+    problem: Makes official records easier to search, analyze, and reuse.
+    stack: "Python, OCR tooling, data cleaning, validation scripts"
+    role: "Pipeline design and implementation"
+    media: "Document extraction preview"
+    links:
+      - label: Documentation
+        href: "#"
+      - label: GitHub
+        href: "#"
+  - title: TOEFL Vocabulary Practice App
+    category: Interactive Tools
+    year: 2026
+    status: Prototype
+    description: A practice interface for vocabulary review, recall, and lightweight progress tracking.
+    problem: Turns a static vocabulary list into a repeated-use learning tool.
+    stack: "Web app, local data, interaction design"
+    role: "Design and implementation"
+    media: "App interface placeholder"
+    links:
+      - label: Demo
+        href: "#"
+      - label: Write-up
+        href: "#"
+  - title: Survey Automation / Agent Testing Framework
+    category: Automation
+    year: 2026
+    status: Experimental
+    description: Scripts and workflows for testing survey flows, agent responses, and structured outputs.
+    problem: Reduces repetitive checking in experimental and AI workflow design.
+    stack: "Python, browser automation, API workflows"
+    role: "Automation and evaluation design"
+    media: "Workflow diagram placeholder"
+    links:
+      - label: Notes
+        href: "#"
+  - title: Personal Homepage Redesign
+    category: Archives and Interfaces
+    year: 2026
+    status: In progress
+    description: A chaptered editorial website for organizing research, writing, civic work, and visual notes.
+    problem: Separates narrative identity from professional archives.
+    stack: "Jekyll, Liquid, SCSS, structured data"
+    role: "Content architecture and implementation"
+    media: "Homepage system placeholder"
+    links:
+      - label: Site
+        href: "/"
+  - title: Interactive Data Visualization Placeholder
+    category: Visualization
+    year: 2026
+    status: Placeholder
+    description: A future interactive visualization for public data or research outputs.
+    problem: Makes structured information easier to inspect and compare.
+    stack: "JavaScript, data processing, visualization"
+    role: "To be updated"
+    media: "Visualization placeholder"
+    links:
+      - label: Demo
+        href: "#"
+  - title: LLM / AI Workflow Experiment Placeholder
+    category: AI / LLM Experiments
+    year: 2026
+    status: Placeholder
+    description: A future experiment with LLM-supported reading, extraction, or analysis workflows.
+    problem: Explores how AI systems can support careful information work without hiding uncertainty.
+    stack: "LLM APIs, evaluation scripts, interface prototypes"
+    role: "To be updated"
+    media: "Experiment placeholder"
+    links:
+      - label: Notes
+        href: "#"
