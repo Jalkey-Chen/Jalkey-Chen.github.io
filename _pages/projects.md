@@ -36,34 +36,10 @@ body_class: professional-page projects-page
       <div class="pro-project-index">
         {% for project in site.data.projects.featuredProjects %}
           <article class="pro-project pro-project--featured">
-            <div class="pro-project__text">
+            <div class="pro-project__intro">
               <p class="pro-entry__meta">{{ project.meta }}</p>
               <h3>{{ project.title }}</h3>
               <p>{{ project.description }}</p>
-              <dl class="pro-facts">
-                <div>
-                  <dt>Problem</dt>
-                  <dd>{{ project.problem }}</dd>
-                </div>
-                <div>
-                  <dt>{{ project.builtLabel | default: "What I built" }}</dt>
-                  <dd>{{ project.built }}</dd>
-                </div>
-                <div>
-                  <dt>Stack</dt>
-                  <dd>{{ project.stack }}</dd>
-                </div>
-                <div>
-                  <dt>Role</dt>
-                  <dd>{{ project.role }}</dd>
-                </div>
-              </dl>
-
-              <div class="pro-links">
-                {% for link in project.links %}
-                  <a href="{{ link.href }}">{{ link.label }} <span aria-hidden="true">→</span></a>
-                {% endfor %}
-              </div>
             </div>
 
             {% if project.mediaImage %}
@@ -80,6 +56,26 @@ body_class: professional-page projects-page
                 <p>{{ project.media }}</p>
               </div>
             {% endif %}
+
+            <dl class="pro-facts">
+              <div>
+                <dt>Problem</dt>
+                <dd>{{ project.problem }}</dd>
+              </div>
+              <div>
+                <dt>Stack</dt>
+                <dd>{{ project.stack }}</dd>
+              </div>
+            </dl>
+
+            <div class="pro-links">
+              {% for link in project.links %}
+                <a href="{{ link.href }}">{{ link.label }} <span aria-hidden="true">→</span></a>
+              {% endfor %}
+              {% if project.statusNote %}
+                <span class="pro-link-note">{{ project.statusNote }}</span>
+              {% endif %}
+            </div>
           </article>
         {% endfor %}
       </div>

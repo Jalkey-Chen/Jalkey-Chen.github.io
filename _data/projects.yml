@@ -1,33 +1,29 @@
 intro: "Selected technical projects: data pipelines, learning tools, and interactive systems built to extract, organize, explain, and make information usable."
 focusAreas:
-  - Data pipelines
-  - Interactive tools
-  - Geospatial visualization
+  - Data infrastructure
+  - API systems
   - AI workflows
-  - Archives and interfaces
+  - Interactive exhibits
+  - Geospatial visualization
 featuredProjects:
-  - title: Official Register OCR / Extraction Pipeline
-    meta: "Data pipeline · Public documents · 2026"
-    description: "A data extraction pipeline for turning scanned public documents into structured, reviewable records."
-    problem: "Historical public records are difficult to search, validate, and analyze at scale."
-    built: "An OCR-assisted pipeline for extraction, cleaning, validation, and manual review."
-    stack: "Python · OCR tooling · data cleaning · validation scripts"
-    role: "Pipeline design and implementation"
-    mediaLabel: "Pipeline preview"
-    media: "CSV / validation output placeholder"
+  - title: MyStyle / Digital Preferences Modeling
+    meta: "Interactive Generative-AI Exhibit · Booth Mindworks · 2025–Present"
+    statusNote: "Beta testing · site not fully open"
+    description: "An online interactive exhibit that models individual preferences from participant choices and uses generative AI to visualize what people like."
+    problem: "Preference experiments need to capture participant choices, preserve session and group structure, and connect those records to generative models."
+    stack: "Python · FastAPI · SQLModel/Alembic · PostgreSQL · Redis/RQ · PyTorch/StyleGAN2 · Docker · S3/EC2"
+    mediaLabel: "Interactive exhibit preview"
+    media: "Preference modeling interface preview"
+    mediaImage: "/images/projects/digiprefer.png"
+    mediaAlt: "MyStyle digital preferences exhibit start screen asking what catches your eye."
     links:
-      - label: Documentation
-        href: "#"
-      - label: GitHub
-        href: "#"
+      - label: Website
+        href: "https://www.digital-preferences-modeling.com/"
   - title: Mapademic · 脉谱学术
-    meta: "Interactive Visualization · 2025 · Team Project"
+    meta: "Interactive Visualization · 2025 CAPP 30122"
     description: "An interactive visualization platform for exploring the global distribution and temporal evolution of academic research."
     problem: "Academic research is difficult to explore across geography, time, and topic. Mapademic makes research concentration, regional academic activity, and field-level trends easier to see and compare."
-    builtLabel: Contribution
-    built: "Contributed to visualization design and program management for a Streamlit-based platform that combines bibliometric data, geospatial mapping, keyword search, timeline exploration, and word-frequency analysis."
     stack: "Python · Streamlit · Plotly · Pandas · NumPy · GeoJSON · ScienceDirect API · Natural Earth"
-    role: "Visualization and program management"
     mediaLabel: "Map / interface preview"
     media: "Geospatial research-density visualization preview"
     mediaImage: "/images/projects/mapademic.png"
@@ -36,6 +32,10 @@ featuredProjects:
       - label: GitHub
         href: "https://github.com/Jalkey-Chen/Mapademic"
 smallerExperiments:
+  - title: Official Register OCR / Extraction Pipeline
+    status: Prototype
+    description: "A data extraction pipeline for turning scanned public documents into structured, reviewable records."
+    href: "#"
   - title: TOEFL Vocabulary Practice App
     status: Prototype
     description: "An interactive practice tool for vocabulary review, recall, and lightweight progress tracking."
