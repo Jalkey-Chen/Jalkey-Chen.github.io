@@ -1,0 +1,14 @@
+{% assign contact_links = site.data.contact_links %}
+
+{% if contact_links %}
+  <footer class="returning-section__contact site-contact-footer" aria-label="Contact links">
+    {% for link in contact_links %}
+      <a href="{{ link.href }}">
+        {% if link.icon %}
+          <i class="{{ link.icon }}" aria-hidden="true"></i>
+        {% endif %}
+        <span>{{ link.label }}</span>
+      </a>
+    {% endfor %}
+  </footer>
+{% endif %}

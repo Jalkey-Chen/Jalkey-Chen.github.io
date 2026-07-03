@@ -71,14 +71,5 @@
     </section>
   </div>
 
-  <footer class="returning-section__contact" aria-label="Contact and site links">
-    {% for link in returning.contactLinks %}
-      <a href="{{ link.href }}">
-        {% if link.icon %}
-          <i class="{{ link.icon }}" aria-hidden="true"></i>
-        {% endif %}
-        <span>{{ link.label }}</span>
-      </a>
-    {% endfor %}
-  </footer>
+  {% include contact-footer.html %}
 </section>

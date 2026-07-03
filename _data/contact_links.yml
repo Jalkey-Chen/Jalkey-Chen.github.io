@@ -1,0 +1,21 @@
+- label: Email
+  href: mailto:peiyuch@uchicago.edu
+  icon: fas fa-envelope
+- label: CV
+  href: /assets/files/cv_peiyu_chen.pdf
+  icon: fas fa-file-alt
+- label: GitHub
+  href: https://github.com/Jalkey-Chen
+  icon: fab fa-github
+- label: LinkedIn
+  href: https://www.linkedin.com/in/peiyu-chen-jalkey
+  icon: fab fa-linkedin-in
+- label: Instagram
+  href: https://instagram.com/chenpy_jalkey
+  icon: fab fa-instagram
+- label: Twitter
+  href: https://twitter.com/peiyuch
+  icon: fab fa-twitter
+- label: Google Scholar
+  href: "#"
+  icon: ai ai-google-scholar

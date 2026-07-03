@@ -23,6 +23,10 @@ layout: compress
           <section class="page__content" itemprop="text">
             {{ content }}
           </section>
+          {% assign body_class = page.body_class | default: "" %}
+          {% if body_class contains "professional-page" %}
+            {% include contact-footer.html %}
+          {% endif %}
         </div>
       </article>
     </div>
